@@ -1,0 +1,21 @@
+run:
+The Start time is: 05.11.2017 - 14:39:33 and  341ms
+### Start ###
+Eingabe Plaintext A: 	 {p1 =  9, p2 = 20}
+Eingabe Plaintext B: 	 {p1 = 11, p2 =  8}
+Ciphertext A: 		 {p1 = 25, p2 = 11}
+Ciphertext B: 		 {p1 =  3, p2 = 11}
+
+Schlüssel #  1 gefunden: {a11 = 11, a12 =  8, a21 =  3, a22 =  7}, Determinante:   53 =   1 (mod 26), Invertierbar:  true
+Schlüssel #  2 gefunden: {a11 = 11, a12 =  8, a21 =  3, a22 = 20}, Determinante:  196 =  14 (mod 26), Invertierbar: false
+Schlüssel #  3 gefunden: {a11 = 11, a12 = 21, a21 =  3, a22 =  7}, Determinante:   14 =  14 (mod 26), Invertierbar: false
+Schlüssel #  4 gefunden: {a11 = 11, a12 = 21, a21 =  3, a22 = 20}, Determinante:  157 =   1 (mod 26), Invertierbar:  true
+
+#### Bericht #####
+Anzahl der versuchten Schlüssel: 	456.976
+Anzahl der gefunden Schlüssel: 	     4 	0,000875 Prozenzt
+Anzahl der invertierbaren Schlüssel: 	     2 	0,000438 Prozent
+The Stop time is : 05.11.2017 - 14:39:33 and  406ms
+Time processed   : 00:00:00 and   66 ms
+Miliseconds needed: 67
+BUILD SUCCESSFUL (total time: 0 seconds)

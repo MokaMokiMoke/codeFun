@@ -1,0 +1,8 @@
+CPU Kerne phys/virt: 2/2
+Geladene Datensätze: 20
+CPU Info: Pentium E5700
+Mit  0 Threads:  5,576 Sek.
+Mit  2 Threads: 12,734 Sek.
+Mit  4 Threads: 13,699 Sek.
+Mit 10 Threads: 10,491 Sek.
+Mit 20 Threads: 8,816 Sek.

@@ -1,0 +1,703 @@
+run:
+The Start time is: 02.11.2017 - 00:09:58 and  229ms
+### Start ###
+Eingabe Plaintext: 	 {p1 =  9, p2 = 20}
+Ciphertext: 		 {p1 = 25, p2 = 11}
+
+Schlüssel #  1 gefunden: {a11 =  1, a12 =  6, a21 =  1, a22 =  4}, Determinante:   -2 =  24 (mod 26), Invertierbar: false
+Schlüssel #  2 gefunden: {a11 =  1, a12 =  6, a21 =  1, a22 = 17}, Determinante:   11 =  11 (mod 26), Invertierbar:  true
+Schlüssel #  3 gefunden: {a11 =  1, a12 =  6, a21 =  3, a22 =  7}, Determinante:  -11 =  15 (mod 26), Invertierbar:  true
+Schlüssel #  4 gefunden: {a11 =  1, a12 =  6, a21 =  3, a22 = 20}, Determinante:    2 =   2 (mod 26), Invertierbar: false
+Schlüssel #  5 gefunden: {a11 =  1, a12 =  6, a21 =  5, a22 = 10}, Determinante:  -20 =   6 (mod 26), Invertierbar: false
+Schlüssel #  6 gefunden: {a11 =  1, a12 =  6, a21 =  5, a22 = 23}, Determinante:   -7 =  19 (mod 26), Invertierbar:  true
+Schlüssel #  7 gefunden: {a11 =  1, a12 =  6, a21 =  7, a22 =  0}, Determinante:  -42 =  10 (mod 26), Invertierbar: false
+Schlüssel #  8 gefunden: {a11 =  1, a12 =  6, a21 =  7, a22 = 13}, Determinante:  -29 =  23 (mod 26), Invertierbar:  true
+Schlüssel #  9 gefunden: {a11 =  1, a12 =  6, a21 =  9, a22 =  3}, Determinante:  -51 =   1 (mod 26), Invertierbar:  true
+Schlüssel # 10 gefunden: {a11 =  1, a12 =  6, a21 =  9, a22 = 16}, Determinante:  -38 =  14 (mod 26), Invertierbar: false
+Schlüssel # 11 gefunden: {a11 =  1, a12 =  6, a21 = 11, a22 =  6}, Determinante:  -60 =  18 (mod 26), Invertierbar: false
+Schlüssel # 12 gefunden: {a11 =  1, a12 =  6, a21 = 11, a22 = 19}, Determinante:  -47 =   5 (mod 26), Invertierbar:  true
+Schlüssel # 13 gefunden: {a11 =  1, a12 =  6, a21 = 13, a22 =  9}, Determinante:  -69 =   9 (mod 26), Invertierbar:  true
+Schlüssel # 14 gefunden: {a11 =  1, a12 =  6, a21 = 13, a22 = 22}, Determinante:  -56 =  22 (mod 26), Invertierbar: false
+Schlüssel # 15 gefunden: {a11 =  1, a12 =  6, a21 = 15, a22 = 12}, Determinante:  -78 =   0 (mod 26), Invertierbar: false
+Schlüssel # 16 gefunden: {a11 =  1, a12 =  6, a21 = 15, a22 = 25}, Determinante:  -65 =  13 (mod 26), Invertierbar: false
+Schlüssel # 17 gefunden: {a11 =  1, a12 =  6, a21 = 17, a22 =  2}, Determinante: -100 =   4 (mod 26), Invertierbar: false
+Schlüssel # 18 gefunden: {a11 =  1, a12 =  6, a21 = 17, a22 = 15}, Determinante:  -87 =  17 (mod 26), Invertierbar:  true
+Schlüssel # 19 gefunden: {a11 =  1, a12 =  6, a21 = 19, a22 =  5}, Determinante: -109 =  21 (mod 26), Invertierbar:  true
+Schlüssel # 20 gefunden: {a11 =  1, a12 =  6, a21 = 19, a22 = 18}, Determinante:  -96 =   8 (mod 26), Invertierbar: false
+Schlüssel # 21 gefunden: {a11 =  1, a12 =  6, a21 = 21, a22 =  8}, Determinante: -118 =  12 (mod 26), Invertierbar: false
+Schlüssel # 22 gefunden: {a11 =  1, a12 =  6, a21 = 21, a22 = 21}, Determinante: -105 =  25 (mod 26), Invertierbar:  true
+Schlüssel # 23 gefunden: {a11 =  1, a12 =  6, a21 = 23, a22 = 11}, Determinante: -127 =   3 (mod 26), Invertierbar:  true
+Schlüssel # 24 gefunden: {a11 =  1, a12 =  6, a21 = 23, a22 = 24}, Determinante: -114 =  16 (mod 26), Invertierbar: false
+Schlüssel # 25 gefunden: {a11 =  1, a12 =  6, a21 = 25, a22 =  1}, Determinante: -149 =   7 (mod 26), Invertierbar:  true
+Schlüssel # 26 gefunden: {a11 =  1, a12 =  6, a21 = 25, a22 = 14}, Determinante: -136 =  20 (mod 26), Invertierbar: false
+Schlüssel # 27 gefunden: {a11 =  1, a12 = 19, a21 =  1, a22 =  4}, Determinante:  -15 =  11 (mod 26), Invertierbar:  true
+Schlüssel # 28 gefunden: {a11 =  1, a12 = 19, a21 =  1, a22 = 17}, Determinante:   -2 =  24 (mod 26), Invertierbar: false
+Schlüssel # 29 gefunden: {a11 =  1, a12 = 19, a21 =  3, a22 =  7}, Determinante:  -50 =   2 (mod 26), Invertierbar: false
+Schlüssel # 30 gefunden: {a11 =  1, a12 = 19, a21 =  3, a22 = 20}, Determinante:  -37 =  15 (mod 26), Invertierbar:  true
+Schlüssel # 31 gefunden: {a11 =  1, a12 = 19, a21 =  5, a22 = 10}, Determinante:  -85 =  19 (mod 26), Invertierbar:  true
+Schlüssel # 32 gefunden: {a11 =  1, a12 = 19, a21 =  5, a22 = 23}, Determinante:  -72 =   6 (mod 26), Invertierbar: false
+Schlüssel # 33 gefunden: {a11 =  1, a12 = 19, a21 =  7, a22 =  0}, Determinante: -133 =  23 (mod 26), Invertierbar:  true
+Schlüssel # 34 gefunden: {a11 =  1, a12 = 19, a21 =  7, a22 = 13}, Determinante: -120 =  10 (mod 26), Invertierbar: false
+Schlüssel # 35 gefunden: {a11 =  1, a12 = 19, a21 =  9, a22 =  3}, Determinante: -168 =  14 (mod 26), Invertierbar: false
+Schlüssel # 36 gefunden: {a11 =  1, a12 = 19, a21 =  9, a22 = 16}, Determinante: -155 =   1 (mod 26), Invertierbar:  true
+Schlüssel # 37 gefunden: {a11 =  1, a12 = 19, a21 = 11, a22 =  6}, Determinante: -203 =   5 (mod 26), Invertierbar:  true
+Schlüssel # 38 gefunden: {a11 =  1, a12 = 19, a21 = 11, a22 = 19}, Determinante: -190 =  18 (mod 26), Invertierbar: false
+Schlüssel # 39 gefunden: {a11 =  1, a12 = 19, a21 = 13, a22 =  9}, Determinante: -238 =  22 (mod 26), Invertierbar: false
+Schlüssel # 40 gefunden: {a11 =  1, a12 = 19, a21 = 13, a22 = 22}, Determinante: -225 =   9 (mod 26), Invertierbar:  true
+Schlüssel # 41 gefunden: {a11 =  1, a12 = 19, a21 = 15, a22 = 12}, Determinante: -273 =  13 (mod 26), Invertierbar: false
+Schlüssel # 42 gefunden: {a11 =  1, a12 = 19, a21 = 15, a22 = 25}, Determinante: -260 =   0 (mod 26), Invertierbar: false
+Schlüssel # 43 gefunden: {a11 =  1, a12 = 19, a21 = 17, a22 =  2}, Determinante: -321 =  17 (mod 26), Invertierbar:  true
+Schlüssel # 44 gefunden: {a11 =  1, a12 = 19, a21 = 17, a22 = 15}, Determinante: -308 =   4 (mod 26), Invertierbar: false
+Schlüssel # 45 gefunden: {a11 =  1, a12 = 19, a21 = 19, a22 =  5}, Determinante: -356 =   8 (mod 26), Invertierbar: false
+Schlüssel # 46 gefunden: {a11 =  1, a12 = 19, a21 = 19, a22 = 18}, Determinante: -343 =  21 (mod 26), Invertierbar:  true
+Schlüssel # 47 gefunden: {a11 =  1, a12 = 19, a21 = 21, a22 =  8}, Determinante: -391 =  25 (mod 26), Invertierbar:  true
+Schlüssel # 48 gefunden: {a11 =  1, a12 = 19, a21 = 21, a22 = 21}, Determinante: -378 =  12 (mod 26), Invertierbar: false
+Schlüssel # 49 gefunden: {a11 =  1, a12 = 19, a21 = 23, a22 = 11}, Determinante: -426 =  16 (mod 26), Invertierbar: false
+Schlüssel # 50 gefunden: {a11 =  1, a12 = 19, a21 = 23, a22 = 24}, Determinante: -413 =   3 (mod 26), Invertierbar:  true
+Schlüssel # 51 gefunden: {a11 =  1, a12 = 19, a21 = 25, a22 =  1}, Determinante: -474 =  20 (mod 26), Invertierbar: false
+Schlüssel # 52 gefunden: {a11 =  1, a12 = 19, a21 = 25, a22 = 14}, Determinante: -461 =   7 (mod 26), Invertierbar:  true
+Schlüssel # 53 gefunden: {a11 =  3, a12 =  9, a21 =  1, a22 =  4}, Determinante:    3 =   3 (mod 26), Invertierbar:  true
+Schlüssel # 54 gefunden: {a11 =  3, a12 =  9, a21 =  1, a22 = 17}, Determinante:   42 =  16 (mod 26), Invertierbar: false
+Schlüssel # 55 gefunden: {a11 =  3, a12 =  9, a21 =  3, a22 =  7}, Determinante:   -6 =  20 (mod 26), Invertierbar: false
+Schlüssel # 56 gefunden: {a11 =  3, a12 =  9, a21 =  3, a22 = 20}, Determinante:   33 =   7 (mod 26), Invertierbar:  true
+Schlüssel # 57 gefunden: {a11 =  3, a12 =  9, a21 =  5, a22 = 10}, Determinante:  -15 =  11 (mod 26), Invertierbar:  true
+Schlüssel # 58 gefunden: {a11 =  3, a12 =  9, a21 =  5, a22 = 23}, Determinante:   24 =  24 (mod 26), Invertierbar: false
+Schlüssel # 59 gefunden: {a11 =  3, a12 =  9, a21 =  7, a22 =  0}, Determinante:  -63 =  15 (mod 26), Invertierbar:  true
+Schlüssel # 60 gefunden: {a11 =  3, a12 =  9, a21 =  7, a22 = 13}, Determinante:  -24 =   2 (mod 26), Invertierbar: false
+Schlüssel # 61 gefunden: {a11 =  3, a12 =  9, a21 =  9, a22 =  3}, Determinante:  -72 =   6 (mod 26), Invertierbar: false
+Schlüssel # 62 gefunden: {a11 =  3, a12 =  9, a21 =  9, a22 = 16}, Determinante:  -33 =  19 (mod 26), Invertierbar:  true
+Schlüssel # 63 gefunden: {a11 =  3, a12 =  9, a21 = 11, a22 =  6}, Determinante:  -81 =  23 (mod 26), Invertierbar:  true
+Schlüssel # 64 gefunden: {a11 =  3, a12 =  9, a21 = 11, a22 = 19}, Determinante:  -42 =  10 (mod 26), Invertierbar: false
+Schlüssel # 65 gefunden: {a11 =  3, a12 =  9, a21 = 13, a22 =  9}, Determinante:  -90 =  14 (mod 26), Invertierbar: false
+Schlüssel # 66 gefunden: {a11 =  3, a12 =  9, a21 = 13, a22 = 22}, Determinante:  -51 =   1 (mod 26), Invertierbar:  true
+Schlüssel # 67 gefunden: {a11 =  3, a12 =  9, a21 = 15, a22 = 12}, Determinante:  -99 =   5 (mod 26), Invertierbar:  true
+Schlüssel # 68 gefunden: {a11 =  3, a12 =  9, a21 = 15, a22 = 25}, Determinante:  -60 =  18 (mod 26), Invertierbar: false
+Schlüssel # 69 gefunden: {a11 =  3, a12 =  9, a21 = 17, a22 =  2}, Determinante: -147 =   9 (mod 26), Invertierbar:  true
+Schlüssel # 70 gefunden: {a11 =  3, a12 =  9, a21 = 17, a22 = 15}, Determinante: -108 =  22 (mod 26), Invertierbar: false
+Schlüssel # 71 gefunden: {a11 =  3, a12 =  9, a21 = 19, a22 =  5}, Determinante: -156 =   0 (mod 26), Invertierbar: false
+Schlüssel # 72 gefunden: {a11 =  3, a12 =  9, a21 = 19, a22 = 18}, Determinante: -117 =  13 (mod 26), Invertierbar: false
+Schlüssel # 73 gefunden: {a11 =  3, a12 =  9, a21 = 21, a22 =  8}, Determinante: -165 =  17 (mod 26), Invertierbar:  true
+Schlüssel # 74 gefunden: {a11 =  3, a12 =  9, a21 = 21, a22 = 21}, Determinante: -126 =   4 (mod 26), Invertierbar: false
+Schlüssel # 75 gefunden: {a11 =  3, a12 =  9, a21 = 23, a22 = 11}, Determinante: -174 =   8 (mod 26), Invertierbar: false
+Schlüssel # 76 gefunden: {a11 =  3, a12 =  9, a21 = 23, a22 = 24}, Determinante: -135 =  21 (mod 26), Invertierbar:  true
+Schlüssel # 77 gefunden: {a11 =  3, a12 =  9, a21 = 25, a22 =  1}, Determinante: -222 =  12 (mod 26), Invertierbar: false
+Schlüssel # 78 gefunden: {a11 =  3, a12 =  9, a21 = 25, a22 = 14}, Determinante: -183 =  25 (mod 26), Invertierbar:  true
+Schlüssel # 79 gefunden: {a11 =  3, a12 = 22, a21 =  1, a22 =  4}, Determinante:  -10 =  16 (mod 26), Invertierbar: false
+Schlüssel # 80 gefunden: {a11 =  3, a12 = 22, a21 =  1, a22 = 17}, Determinante:   29 =   3 (mod 26), Invertierbar:  true
+Schlüssel # 81 gefunden: {a11 =  3, a12 = 22, a21 =  3, a22 =  7}, Determinante:  -45 =   7 (mod 26), Invertierbar:  true
+Schlüssel # 82 gefunden: {a11 =  3, a12 = 22, a21 =  3, a22 = 20}, Determinante:   -6 =  20 (mod 26), Invertierbar: false
+Schlüssel # 83 gefunden: {a11 =  3, a12 = 22, a21 =  5, a22 = 10}, Determinante:  -80 =  24 (mod 26), Invertierbar: false
+Schlüssel # 84 gefunden: {a11 =  3, a12 = 22, a21 =  5, a22 = 23}, Determinante:  -41 =  11 (mod 26), Invertierbar:  true
+Schlüssel # 85 gefunden: {a11 =  3, a12 = 22, a21 =  7, a22 =  0}, Determinante: -154 =   2 (mod 26), Invertierbar: false
+Schlüssel # 86 gefunden: {a11 =  3, a12 = 22, a21 =  7, a22 = 13}, Determinante: -115 =  15 (mod 26), Invertierbar:  true
+Schlüssel # 87 gefunden: {a11 =  3, a12 = 22, a21 =  9, a22 =  3}, Determinante: -189 =  19 (mod 26), Invertierbar:  true
+Schlüssel # 88 gefunden: {a11 =  3, a12 = 22, a21 =  9, a22 = 16}, Determinante: -150 =   6 (mod 26), Invertierbar: false
+Schlüssel # 89 gefunden: {a11 =  3, a12 = 22, a21 = 11, a22 =  6}, Determinante: -224 =  10 (mod 26), Invertierbar: false
+Schlüssel # 90 gefunden: {a11 =  3, a12 = 22, a21 = 11, a22 = 19}, Determinante: -185 =  23 (mod 26), Invertierbar:  true
+Schlüssel # 91 gefunden: {a11 =  3, a12 = 22, a21 = 13, a22 =  9}, Determinante: -259 =   1 (mod 26), Invertierbar:  true
+Schlüssel # 92 gefunden: {a11 =  3, a12 = 22, a21 = 13, a22 = 22}, Determinante: -220 =  14 (mod 26), Invertierbar: false
+Schlüssel # 93 gefunden: {a11 =  3, a12 = 22, a21 = 15, a22 = 12}, Determinante: -294 =  18 (mod 26), Invertierbar: false
+Schlüssel # 94 gefunden: {a11 =  3, a12 = 22, a21 = 15, a22 = 25}, Determinante: -255 =   5 (mod 26), Invertierbar:  true
+Schlüssel # 95 gefunden: {a11 =  3, a12 = 22, a21 = 17, a22 =  2}, Determinante: -368 =  22 (mod 26), Invertierbar: false
+Schlüssel # 96 gefunden: {a11 =  3, a12 = 22, a21 = 17, a22 = 15}, Determinante: -329 =   9 (mod 26), Invertierbar:  true
+Schlüssel # 97 gefunden: {a11 =  3, a12 = 22, a21 = 19, a22 =  5}, Determinante: -403 =  13 (mod 26), Invertierbar: false
+Schlüssel # 98 gefunden: {a11 =  3, a12 = 22, a21 = 19, a22 = 18}, Determinante: -364 =   0 (mod 26), Invertierbar: false
+Schlüssel # 99 gefunden: {a11 =  3, a12 = 22, a21 = 21, a22 =  8}, Determinante: -438 =   4 (mod 26), Invertierbar: false
+Schlüssel #100 gefunden: {a11 =  3, a12 = 22, a21 = 21, a22 = 21}, Determinante: -399 =  17 (mod 26), Invertierbar:  true
+Schlüssel #101 gefunden: {a11 =  3, a12 = 22, a21 = 23, a22 = 11}, Determinante: -473 =  21 (mod 26), Invertierbar:  true
+Schlüssel #102 gefunden: {a11 =  3, a12 = 22, a21 = 23, a22 = 24}, Determinante: -434 =   8 (mod 26), Invertierbar: false
+Schlüssel #103 gefunden: {a11 =  3, a12 = 22, a21 = 25, a22 =  1}, Determinante: -547 =  25 (mod 26), Invertierbar:  true
+Schlüssel #104 gefunden: {a11 =  3, a12 = 22, a21 = 25, a22 = 14}, Determinante: -508 =  12 (mod 26), Invertierbar: false
+
+Fortschritt: i:  4, j:  6, k: 24, l: 16, keyCounter: 75.000
+Schlüssel #105 gefunden: {a11 =  5, a12 = 12, a21 =  1, a22 =  4}, Determinante:    8 =   8 (mod 26), Invertierbar: false
+Schlüssel #106 gefunden: {a11 =  5, a12 = 12, a21 =  1, a22 = 17}, Determinante:   73 =  21 (mod 26), Invertierbar:  true
+Schlüssel #107 gefunden: {a11 =  5, a12 = 12, a21 =  3, a22 =  7}, Determinante:   -1 =  25 (mod 26), Invertierbar:  true
+Schlüssel #108 gefunden: {a11 =  5, a12 = 12, a21 =  3, a22 = 20}, Determinante:   64 =  12 (mod 26), Invertierbar: false
+Schlüssel #109 gefunden: {a11 =  5, a12 = 12, a21 =  5, a22 = 10}, Determinante:  -10 =  16 (mod 26), Invertierbar: false
+Schlüssel #110 gefunden: {a11 =  5, a12 = 12, a21 =  5, a22 = 23}, Determinante:   55 =   3 (mod 26), Invertierbar:  true
+Schlüssel #111 gefunden: {a11 =  5, a12 = 12, a21 =  7, a22 =  0}, Determinante:  -84 =  20 (mod 26), Invertierbar: false
+Schlüssel #112 gefunden: {a11 =  5, a12 = 12, a21 =  7, a22 = 13}, Determinante:  -19 =   7 (mod 26), Invertierbar:  true
+Schlüssel #113 gefunden: {a11 =  5, a12 = 12, a21 =  9, a22 =  3}, Determinante:  -93 =  11 (mod 26), Invertierbar:  true
+Schlüssel #114 gefunden: {a11 =  5, a12 = 12, a21 =  9, a22 = 16}, Determinante:  -28 =  24 (mod 26), Invertierbar: false
+Schlüssel #115 gefunden: {a11 =  5, a12 = 12, a21 = 11, a22 =  6}, Determinante: -102 =   2 (mod 26), Invertierbar: false
+Schlüssel #116 gefunden: {a11 =  5, a12 = 12, a21 = 11, a22 = 19}, Determinante:  -37 =  15 (mod 26), Invertierbar:  true
+Schlüssel #117 gefunden: {a11 =  5, a12 = 12, a21 = 13, a22 =  9}, Determinante: -111 =  19 (mod 26), Invertierbar:  true
+Schlüssel #118 gefunden: {a11 =  5, a12 = 12, a21 = 13, a22 = 22}, Determinante:  -46 =   6 (mod 26), Invertierbar: false
+Schlüssel #119 gefunden: {a11 =  5, a12 = 12, a21 = 15, a22 = 12}, Determinante: -120 =  10 (mod 26), Invertierbar: false
+Schlüssel #120 gefunden: {a11 =  5, a12 = 12, a21 = 15, a22 = 25}, Determinante:  -55 =  23 (mod 26), Invertierbar:  true
+Schlüssel #121 gefunden: {a11 =  5, a12 = 12, a21 = 17, a22 =  2}, Determinante: -194 =  14 (mod 26), Invertierbar: false
+Schlüssel #122 gefunden: {a11 =  5, a12 = 12, a21 = 17, a22 = 15}, Determinante: -129 =   1 (mod 26), Invertierbar:  true
+Schlüssel #123 gefunden: {a11 =  5, a12 = 12, a21 = 19, a22 =  5}, Determinante: -203 =   5 (mod 26), Invertierbar:  true
+Schlüssel #124 gefunden: {a11 =  5, a12 = 12, a21 = 19, a22 = 18}, Determinante: -138 =  18 (mod 26), Invertierbar: false
+Schlüssel #125 gefunden: {a11 =  5, a12 = 12, a21 = 21, a22 =  8}, Determinante: -212 =  22 (mod 26), Invertierbar: false
+Schlüssel #126 gefunden: {a11 =  5, a12 = 12, a21 = 21, a22 = 21}, Determinante: -147 =   9 (mod 26), Invertierbar:  true
+Schlüssel #127 gefunden: {a11 =  5, a12 = 12, a21 = 23, a22 = 11}, Determinante: -221 =  13 (mod 26), Invertierbar: false
+Schlüssel #128 gefunden: {a11 =  5, a12 = 12, a21 = 23, a22 = 24}, Determinante: -156 =   0 (mod 26), Invertierbar: false
+Schlüssel #129 gefunden: {a11 =  5, a12 = 12, a21 = 25, a22 =  1}, Determinante: -295 =  17 (mod 26), Invertierbar:  true
+Schlüssel #130 gefunden: {a11 =  5, a12 = 12, a21 = 25, a22 = 14}, Determinante: -230 =   4 (mod 26), Invertierbar: false
+Schlüssel #131 gefunden: {a11 =  5, a12 = 25, a21 =  1, a22 =  4}, Determinante:   -5 =  21 (mod 26), Invertierbar:  true
+Schlüssel #132 gefunden: {a11 =  5, a12 = 25, a21 =  1, a22 = 17}, Determinante:   60 =   8 (mod 26), Invertierbar: false
+Schlüssel #133 gefunden: {a11 =  5, a12 = 25, a21 =  3, a22 =  7}, Determinante:  -40 =  12 (mod 26), Invertierbar: false
+Schlüssel #134 gefunden: {a11 =  5, a12 = 25, a21 =  3, a22 = 20}, Determinante:   25 =  25 (mod 26), Invertierbar:  true
+Schlüssel #135 gefunden: {a11 =  5, a12 = 25, a21 =  5, a22 = 10}, Determinante:  -75 =   3 (mod 26), Invertierbar:  true
+Schlüssel #136 gefunden: {a11 =  5, a12 = 25, a21 =  5, a22 = 23}, Determinante:  -10 =  16 (mod 26), Invertierbar: false
+Schlüssel #137 gefunden: {a11 =  5, a12 = 25, a21 =  7, a22 =  0}, Determinante: -175 =   7 (mod 26), Invertierbar:  true
+Schlüssel #138 gefunden: {a11 =  5, a12 = 25, a21 =  7, a22 = 13}, Determinante: -110 =  20 (mod 26), Invertierbar: false
+Schlüssel #139 gefunden: {a11 =  5, a12 = 25, a21 =  9, a22 =  3}, Determinante: -210 =  24 (mod 26), Invertierbar: false
+Schlüssel #140 gefunden: {a11 =  5, a12 = 25, a21 =  9, a22 = 16}, Determinante: -145 =  11 (mod 26), Invertierbar:  true
+Schlüssel #141 gefunden: {a11 =  5, a12 = 25, a21 = 11, a22 =  6}, Determinante: -245 =  15 (mod 26), Invertierbar:  true
+Schlüssel #142 gefunden: {a11 =  5, a12 = 25, a21 = 11, a22 = 19}, Determinante: -180 =   2 (mod 26), Invertierbar: false
+Schlüssel #143 gefunden: {a11 =  5, a12 = 25, a21 = 13, a22 =  9}, Determinante: -280 =   6 (mod 26), Invertierbar: false
+Schlüssel #144 gefunden: {a11 =  5, a12 = 25, a21 = 13, a22 = 22}, Determinante: -215 =  19 (mod 26), Invertierbar:  true
+Schlüssel #145 gefunden: {a11 =  5, a12 = 25, a21 = 15, a22 = 12}, Determinante: -315 =  23 (mod 26), Invertierbar:  true
+Schlüssel #146 gefunden: {a11 =  5, a12 = 25, a21 = 15, a22 = 25}, Determinante: -250 =  10 (mod 26), Invertierbar: false
+Schlüssel #147 gefunden: {a11 =  5, a12 = 25, a21 = 17, a22 =  2}, Determinante: -415 =   1 (mod 26), Invertierbar:  true
+Schlüssel #148 gefunden: {a11 =  5, a12 = 25, a21 = 17, a22 = 15}, Determinante: -350 =  14 (mod 26), Invertierbar: false
+Schlüssel #149 gefunden: {a11 =  5, a12 = 25, a21 = 19, a22 =  5}, Determinante: -450 =  18 (mod 26), Invertierbar: false
+Schlüssel #150 gefunden: {a11 =  5, a12 = 25, a21 = 19, a22 = 18}, Determinante: -385 =   5 (mod 26), Invertierbar:  true
+Schlüssel #151 gefunden: {a11 =  5, a12 = 25, a21 = 21, a22 =  8}, Determinante: -485 =   9 (mod 26), Invertierbar:  true
+Schlüssel #152 gefunden: {a11 =  5, a12 = 25, a21 = 21, a22 = 21}, Determinante: -420 =  22 (mod 26), Invertierbar: false
+Schlüssel #153 gefunden: {a11 =  5, a12 = 25, a21 = 23, a22 = 11}, Determinante: -520 =   0 (mod 26), Invertierbar: false
+Schlüssel #154 gefunden: {a11 =  5, a12 = 25, a21 = 23, a22 = 24}, Determinante: -455 =  13 (mod 26), Invertierbar: false
+Schlüssel #155 gefunden: {a11 =  5, a12 = 25, a21 = 25, a22 =  1}, Determinante: -620 =   4 (mod 26), Invertierbar: false
+Schlüssel #156 gefunden: {a11 =  5, a12 = 25, a21 = 25, a22 = 14}, Determinante: -555 =  17 (mod 26), Invertierbar:  true
+Schlüssel #157 gefunden: {a11 =  7, a12 =  2, a21 =  1, a22 =  4}, Determinante:   26 =   0 (mod 26), Invertierbar: false
+Schlüssel #158 gefunden: {a11 =  7, a12 =  2, a21 =  1, a22 = 17}, Determinante:  117 =  13 (mod 26), Invertierbar: false
+Schlüssel #159 gefunden: {a11 =  7, a12 =  2, a21 =  3, a22 =  7}, Determinante:   43 =  17 (mod 26), Invertierbar:  true
+Schlüssel #160 gefunden: {a11 =  7, a12 =  2, a21 =  3, a22 = 20}, Determinante:  134 =   4 (mod 26), Invertierbar: false
+Schlüssel #161 gefunden: {a11 =  7, a12 =  2, a21 =  5, a22 = 10}, Determinante:   60 =   8 (mod 26), Invertierbar: false
+Schlüssel #162 gefunden: {a11 =  7, a12 =  2, a21 =  5, a22 = 23}, Determinante:  151 =  21 (mod 26), Invertierbar:  true
+Schlüssel #163 gefunden: {a11 =  7, a12 =  2, a21 =  7, a22 =  0}, Determinante:  -14 =  12 (mod 26), Invertierbar: false
+Schlüssel #164 gefunden: {a11 =  7, a12 =  2, a21 =  7, a22 = 13}, Determinante:   77 =  25 (mod 26), Invertierbar:  true
+Schlüssel #165 gefunden: {a11 =  7, a12 =  2, a21 =  9, a22 =  3}, Determinante:    3 =   3 (mod 26), Invertierbar:  true
+Schlüssel #166 gefunden: {a11 =  7, a12 =  2, a21 =  9, a22 = 16}, Determinante:   94 =  16 (mod 26), Invertierbar: false
+Schlüssel #167 gefunden: {a11 =  7, a12 =  2, a21 = 11, a22 =  6}, Determinante:   20 =  20 (mod 26), Invertierbar: false
+Schlüssel #168 gefunden: {a11 =  7, a12 =  2, a21 = 11, a22 = 19}, Determinante:  111 =   7 (mod 26), Invertierbar:  true
+Schlüssel #169 gefunden: {a11 =  7, a12 =  2, a21 = 13, a22 =  9}, Determinante:   37 =  11 (mod 26), Invertierbar:  true
+Schlüssel #170 gefunden: {a11 =  7, a12 =  2, a21 = 13, a22 = 22}, Determinante:  128 =  24 (mod 26), Invertierbar: false
+Schlüssel #171 gefunden: {a11 =  7, a12 =  2, a21 = 15, a22 = 12}, Determinante:   54 =   2 (mod 26), Invertierbar: false
+Schlüssel #172 gefunden: {a11 =  7, a12 =  2, a21 = 15, a22 = 25}, Determinante:  145 =  15 (mod 26), Invertierbar:  true
+Schlüssel #173 gefunden: {a11 =  7, a12 =  2, a21 = 17, a22 =  2}, Determinante:  -20 =   6 (mod 26), Invertierbar: false
+Schlüssel #174 gefunden: {a11 =  7, a12 =  2, a21 = 17, a22 = 15}, Determinante:   71 =  19 (mod 26), Invertierbar:  true
+Schlüssel #175 gefunden: {a11 =  7, a12 =  2, a21 = 19, a22 =  5}, Determinante:   -3 =  23 (mod 26), Invertierbar:  true
+Schlüssel #176 gefunden: {a11 =  7, a12 =  2, a21 = 19, a22 = 18}, Determinante:   88 =  10 (mod 26), Invertierbar: false
+Schlüssel #177 gefunden: {a11 =  7, a12 =  2, a21 = 21, a22 =  8}, Determinante:   14 =  14 (mod 26), Invertierbar: false
+Schlüssel #178 gefunden: {a11 =  7, a12 =  2, a21 = 21, a22 = 21}, Determinante:  105 =   1 (mod 26), Invertierbar:  true
+Schlüssel #179 gefunden: {a11 =  7, a12 =  2, a21 = 23, a22 = 11}, Determinante:   31 =   5 (mod 26), Invertierbar:  true
+Schlüssel #180 gefunden: {a11 =  7, a12 =  2, a21 = 23, a22 = 24}, Determinante:  122 =  18 (mod 26), Invertierbar: false
+Schlüssel #181 gefunden: {a11 =  7, a12 =  2, a21 = 25, a22 =  1}, Determinante:  -43 =   9 (mod 26), Invertierbar:  true
+Schlüssel #182 gefunden: {a11 =  7, a12 =  2, a21 = 25, a22 = 14}, Determinante:   48 =  22 (mod 26), Invertierbar: false
+Schlüssel #183 gefunden: {a11 =  7, a12 = 15, a21 =  1, a22 =  4}, Determinante:   13 =  13 (mod 26), Invertierbar: false
+Schlüssel #184 gefunden: {a11 =  7, a12 = 15, a21 =  1, a22 = 17}, Determinante:  104 =   0 (mod 26), Invertierbar: false
+Schlüssel #185 gefunden: {a11 =  7, a12 = 15, a21 =  3, a22 =  7}, Determinante:    4 =   4 (mod 26), Invertierbar: false
+Schlüssel #186 gefunden: {a11 =  7, a12 = 15, a21 =  3, a22 = 20}, Determinante:   95 =  17 (mod 26), Invertierbar:  true
+Schlüssel #187 gefunden: {a11 =  7, a12 = 15, a21 =  5, a22 = 10}, Determinante:   -5 =  21 (mod 26), Invertierbar:  true
+Schlüssel #188 gefunden: {a11 =  7, a12 = 15, a21 =  5, a22 = 23}, Determinante:   86 =   8 (mod 26), Invertierbar: false
+Schlüssel #189 gefunden: {a11 =  7, a12 = 15, a21 =  7, a22 =  0}, Determinante: -105 =  25 (mod 26), Invertierbar:  true
+Schlüssel #190 gefunden: {a11 =  7, a12 = 15, a21 =  7, a22 = 13}, Determinante:  -14 =  12 (mod 26), Invertierbar: false
+Schlüssel #191 gefunden: {a11 =  7, a12 = 15, a21 =  9, a22 =  3}, Determinante: -114 =  16 (mod 26), Invertierbar: false
+Schlüssel #192 gefunden: {a11 =  7, a12 = 15, a21 =  9, a22 = 16}, Determinante:  -23 =   3 (mod 26), Invertierbar:  true
+Schlüssel #193 gefunden: {a11 =  7, a12 = 15, a21 = 11, a22 =  6}, Determinante: -123 =   7 (mod 26), Invertierbar:  true
+Schlüssel #194 gefunden: {a11 =  7, a12 = 15, a21 = 11, a22 = 19}, Determinante:  -32 =  20 (mod 26), Invertierbar: false
+Schlüssel #195 gefunden: {a11 =  7, a12 = 15, a21 = 13, a22 =  9}, Determinante: -132 =  24 (mod 26), Invertierbar: false
+Schlüssel #196 gefunden: {a11 =  7, a12 = 15, a21 = 13, a22 = 22}, Determinante:  -41 =  11 (mod 26), Invertierbar:  true
+Schlüssel #197 gefunden: {a11 =  7, a12 = 15, a21 = 15, a22 = 12}, Determinante: -141 =  15 (mod 26), Invertierbar:  true
+Schlüssel #198 gefunden: {a11 =  7, a12 = 15, a21 = 15, a22 = 25}, Determinante:  -50 =   2 (mod 26), Invertierbar: false
+Schlüssel #199 gefunden: {a11 =  7, a12 = 15, a21 = 17, a22 =  2}, Determinante: -241 =  19 (mod 26), Invertierbar:  true
+Schlüssel #200 gefunden: {a11 =  7, a12 = 15, a21 = 17, a22 = 15}, Determinante: -150 =   6 (mod 26), Invertierbar: false
+Schlüssel #201 gefunden: {a11 =  7, a12 = 15, a21 = 19, a22 =  5}, Determinante: -250 =  10 (mod 26), Invertierbar: false
+Schlüssel #202 gefunden: {a11 =  7, a12 = 15, a21 = 19, a22 = 18}, Determinante: -159 =  23 (mod 26), Invertierbar:  true
+Schlüssel #203 gefunden: {a11 =  7, a12 = 15, a21 = 21, a22 =  8}, Determinante: -259 =   1 (mod 26), Invertierbar:  true
+Schlüssel #204 gefunden: {a11 =  7, a12 = 15, a21 = 21, a22 = 21}, Determinante: -168 =  14 (mod 26), Invertierbar: false
+Schlüssel #205 gefunden: {a11 =  7, a12 = 15, a21 = 23, a22 = 11}, Determinante: -268 =  18 (mod 26), Invertierbar: false
+Schlüssel #206 gefunden: {a11 =  7, a12 = 15, a21 = 23, a22 = 24}, Determinante: -177 =   5 (mod 26), Invertierbar:  true
+Schlüssel #207 gefunden: {a11 =  7, a12 = 15, a21 = 25, a22 =  1}, Determinante: -368 =  22 (mod 26), Invertierbar: false
+Schlüssel #208 gefunden: {a11 =  7, a12 = 15, a21 = 25, a22 = 14}, Determinante: -277 =   9 (mod 26), Invertierbar:  true
+
+Fortschritt: i:  8, j: 13, k: 23, l:  6, keyCounter: 150.000
+Schlüssel #209 gefunden: {a11 =  9, a12 =  5, a21 =  1, a22 =  4}, Determinante:   31 =   5 (mod 26), Invertierbar:  true
+Schlüssel #210 gefunden: {a11 =  9, a12 =  5, a21 =  1, a22 = 17}, Determinante:  148 =  18 (mod 26), Invertierbar: false
+Schlüssel #211 gefunden: {a11 =  9, a12 =  5, a21 =  3, a22 =  7}, Determinante:   48 =  22 (mod 26), Invertierbar: false
+Schlüssel #212 gefunden: {a11 =  9, a12 =  5, a21 =  3, a22 = 20}, Determinante:  165 =   9 (mod 26), Invertierbar:  true
+Schlüssel #213 gefunden: {a11 =  9, a12 =  5, a21 =  5, a22 = 10}, Determinante:   65 =  13 (mod 26), Invertierbar: false
+Schlüssel #214 gefunden: {a11 =  9, a12 =  5, a21 =  5, a22 = 23}, Determinante:  182 =   0 (mod 26), Invertierbar: false
+Schlüssel #215 gefunden: {a11 =  9, a12 =  5, a21 =  7, a22 =  0}, Determinante:  -35 =  17 (mod 26), Invertierbar:  true
+Schlüssel #216 gefunden: {a11 =  9, a12 =  5, a21 =  7, a22 = 13}, Determinante:   82 =   4 (mod 26), Invertierbar: false
+Schlüssel #217 gefunden: {a11 =  9, a12 =  5, a21 =  9, a22 =  3}, Determinante:  -18 =   8 (mod 26), Invertierbar: false
+Schlüssel #218 gefunden: {a11 =  9, a12 =  5, a21 =  9, a22 = 16}, Determinante:   99 =  21 (mod 26), Invertierbar:  true
+Schlüssel #219 gefunden: {a11 =  9, a12 =  5, a21 = 11, a22 =  6}, Determinante:   -1 =  25 (mod 26), Invertierbar:  true
+Schlüssel #220 gefunden: {a11 =  9, a12 =  5, a21 = 11, a22 = 19}, Determinante:  116 =  12 (mod 26), Invertierbar: false
+Schlüssel #221 gefunden: {a11 =  9, a12 =  5, a21 = 13, a22 =  9}, Determinante:   16 =  16 (mod 26), Invertierbar: false
+Schlüssel #222 gefunden: {a11 =  9, a12 =  5, a21 = 13, a22 = 22}, Determinante:  133 =   3 (mod 26), Invertierbar:  true
+Schlüssel #223 gefunden: {a11 =  9, a12 =  5, a21 = 15, a22 = 12}, Determinante:   33 =   7 (mod 26), Invertierbar:  true
+Schlüssel #224 gefunden: {a11 =  9, a12 =  5, a21 = 15, a22 = 25}, Determinante:  150 =  20 (mod 26), Invertierbar: false
+Schlüssel #225 gefunden: {a11 =  9, a12 =  5, a21 = 17, a22 =  2}, Determinante:  -67 =  11 (mod 26), Invertierbar:  true
+Schlüssel #226 gefunden: {a11 =  9, a12 =  5, a21 = 17, a22 = 15}, Determinante:   50 =  24 (mod 26), Invertierbar: false
+Schlüssel #227 gefunden: {a11 =  9, a12 =  5, a21 = 19, a22 =  5}, Determinante:  -50 =   2 (mod 26), Invertierbar: false
+Schlüssel #228 gefunden: {a11 =  9, a12 =  5, a21 = 19, a22 = 18}, Determinante:   67 =  15 (mod 26), Invertierbar:  true
+Schlüssel #229 gefunden: {a11 =  9, a12 =  5, a21 = 21, a22 =  8}, Determinante:  -33 =  19 (mod 26), Invertierbar:  true
+Schlüssel #230 gefunden: {a11 =  9, a12 =  5, a21 = 21, a22 = 21}, Determinante:   84 =   6 (mod 26), Invertierbar: false
+Schlüssel #231 gefunden: {a11 =  9, a12 =  5, a21 = 23, a22 = 11}, Determinante:  -16 =  10 (mod 26), Invertierbar: false
+Schlüssel #232 gefunden: {a11 =  9, a12 =  5, a21 = 23, a22 = 24}, Determinante:  101 =  23 (mod 26), Invertierbar:  true
+Schlüssel #233 gefunden: {a11 =  9, a12 =  5, a21 = 25, a22 =  1}, Determinante: -116 =  14 (mod 26), Invertierbar: false
+Schlüssel #234 gefunden: {a11 =  9, a12 =  5, a21 = 25, a22 = 14}, Determinante:    1 =   1 (mod 26), Invertierbar:  true
+Schlüssel #235 gefunden: {a11 =  9, a12 = 18, a21 =  1, a22 =  4}, Determinante:   18 =  18 (mod 26), Invertierbar: false
+Schlüssel #236 gefunden: {a11 =  9, a12 = 18, a21 =  1, a22 = 17}, Determinante:  135 =   5 (mod 26), Invertierbar:  true
+Schlüssel #237 gefunden: {a11 =  9, a12 = 18, a21 =  3, a22 =  7}, Determinante:    9 =   9 (mod 26), Invertierbar:  true
+Schlüssel #238 gefunden: {a11 =  9, a12 = 18, a21 =  3, a22 = 20}, Determinante:  126 =  22 (mod 26), Invertierbar: false
+Schlüssel #239 gefunden: {a11 =  9, a12 = 18, a21 =  5, a22 = 10}, Determinante:    0 =   0 (mod 26), Invertierbar: false
+Schlüssel #240 gefunden: {a11 =  9, a12 = 18, a21 =  5, a22 = 23}, Determinante:  117 =  13 (mod 26), Invertierbar: false
+Schlüssel #241 gefunden: {a11 =  9, a12 = 18, a21 =  7, a22 =  0}, Determinante: -126 =   4 (mod 26), Invertierbar: false
+Schlüssel #242 gefunden: {a11 =  9, a12 = 18, a21 =  7, a22 = 13}, Determinante:   -9 =  17 (mod 26), Invertierbar:  true
+Schlüssel #243 gefunden: {a11 =  9, a12 = 18, a21 =  9, a22 =  3}, Determinante: -135 =  21 (mod 26), Invertierbar:  true
+Schlüssel #244 gefunden: {a11 =  9, a12 = 18, a21 =  9, a22 = 16}, Determinante:  -18 =   8 (mod 26), Invertierbar: false
+Schlüssel #245 gefunden: {a11 =  9, a12 = 18, a21 = 11, a22 =  6}, Determinante: -144 =  12 (mod 26), Invertierbar: false
+Schlüssel #246 gefunden: {a11 =  9, a12 = 18, a21 = 11, a22 = 19}, Determinante:  -27 =  25 (mod 26), Invertierbar:  true
+Schlüssel #247 gefunden: {a11 =  9, a12 = 18, a21 = 13, a22 =  9}, Determinante: -153 =   3 (mod 26), Invertierbar:  true
+Schlüssel #248 gefunden: {a11 =  9, a12 = 18, a21 = 13, a22 = 22}, Determinante:  -36 =  16 (mod 26), Invertierbar: false
+Schlüssel #249 gefunden: {a11 =  9, a12 = 18, a21 = 15, a22 = 12}, Determinante: -162 =  20 (mod 26), Invertierbar: false
+Schlüssel #250 gefunden: {a11 =  9, a12 = 18, a21 = 15, a22 = 25}, Determinante:  -45 =   7 (mod 26), Invertierbar:  true
+Schlüssel #251 gefunden: {a11 =  9, a12 = 18, a21 = 17, a22 =  2}, Determinante: -288 =  24 (mod 26), Invertierbar: false
+Schlüssel #252 gefunden: {a11 =  9, a12 = 18, a21 = 17, a22 = 15}, Determinante: -171 =  11 (mod 26), Invertierbar:  true
+Schlüssel #253 gefunden: {a11 =  9, a12 = 18, a21 = 19, a22 =  5}, Determinante: -297 =  15 (mod 26), Invertierbar:  true
+Schlüssel #254 gefunden: {a11 =  9, a12 = 18, a21 = 19, a22 = 18}, Determinante: -180 =   2 (mod 26), Invertierbar: false
+Schlüssel #255 gefunden: {a11 =  9, a12 = 18, a21 = 21, a22 =  8}, Determinante: -306 =   6 (mod 26), Invertierbar: false
+Schlüssel #256 gefunden: {a11 =  9, a12 = 18, a21 = 21, a22 = 21}, Determinante: -189 =  19 (mod 26), Invertierbar:  true
+Schlüssel #257 gefunden: {a11 =  9, a12 = 18, a21 = 23, a22 = 11}, Determinante: -315 =  23 (mod 26), Invertierbar:  true
+Schlüssel #258 gefunden: {a11 =  9, a12 = 18, a21 = 23, a22 = 24}, Determinante: -198 =  10 (mod 26), Invertierbar: false
+Schlüssel #259 gefunden: {a11 =  9, a12 = 18, a21 = 25, a22 =  1}, Determinante: -441 =   1 (mod 26), Invertierbar:  true
+Schlüssel #260 gefunden: {a11 =  9, a12 = 18, a21 = 25, a22 = 14}, Determinante: -324 =  14 (mod 26), Invertierbar: false
+Schlüssel #261 gefunden: {a11 = 11, a12 =  8, a21 =  1, a22 =  4}, Determinante:   36 =  10 (mod 26), Invertierbar: false
+Schlüssel #262 gefunden: {a11 = 11, a12 =  8, a21 =  1, a22 = 17}, Determinante:  179 =  23 (mod 26), Invertierbar:  true
+Schlüssel #263 gefunden: {a11 = 11, a12 =  8, a21 =  3, a22 =  7}, Determinante:   53 =   1 (mod 26), Invertierbar:  true
+Schlüssel #264 gefunden: {a11 = 11, a12 =  8, a21 =  3, a22 = 20}, Determinante:  196 =  14 (mod 26), Invertierbar: false
+Schlüssel #265 gefunden: {a11 = 11, a12 =  8, a21 =  5, a22 = 10}, Determinante:   70 =  18 (mod 26), Invertierbar: false
+Schlüssel #266 gefunden: {a11 = 11, a12 =  8, a21 =  5, a22 = 23}, Determinante:  213 =   5 (mod 26), Invertierbar:  true
+Schlüssel #267 gefunden: {a11 = 11, a12 =  8, a21 =  7, a22 =  0}, Determinante:  -56 =  22 (mod 26), Invertierbar: false
+Schlüssel #268 gefunden: {a11 = 11, a12 =  8, a21 =  7, a22 = 13}, Determinante:   87 =   9 (mod 26), Invertierbar:  true
+Schlüssel #269 gefunden: {a11 = 11, a12 =  8, a21 =  9, a22 =  3}, Determinante:  -39 =  13 (mod 26), Invertierbar: false
+Schlüssel #270 gefunden: {a11 = 11, a12 =  8, a21 =  9, a22 = 16}, Determinante:  104 =   0 (mod 26), Invertierbar: false
+Schlüssel #271 gefunden: {a11 = 11, a12 =  8, a21 = 11, a22 =  6}, Determinante:  -22 =   4 (mod 26), Invertierbar: false
+Schlüssel #272 gefunden: {a11 = 11, a12 =  8, a21 = 11, a22 = 19}, Determinante:  121 =  17 (mod 26), Invertierbar:  true
+Schlüssel #273 gefunden: {a11 = 11, a12 =  8, a21 = 13, a22 =  9}, Determinante:   -5 =  21 (mod 26), Invertierbar:  true
+Schlüssel #274 gefunden: {a11 = 11, a12 =  8, a21 = 13, a22 = 22}, Determinante:  138 =   8 (mod 26), Invertierbar: false
+Schlüssel #275 gefunden: {a11 = 11, a12 =  8, a21 = 15, a22 = 12}, Determinante:   12 =  12 (mod 26), Invertierbar: false
+Schlüssel #276 gefunden: {a11 = 11, a12 =  8, a21 = 15, a22 = 25}, Determinante:  155 =  25 (mod 26), Invertierbar:  true
+Schlüssel #277 gefunden: {a11 = 11, a12 =  8, a21 = 17, a22 =  2}, Determinante: -114 =  16 (mod 26), Invertierbar: false
+Schlüssel #278 gefunden: {a11 = 11, a12 =  8, a21 = 17, a22 = 15}, Determinante:   29 =   3 (mod 26), Invertierbar:  true
+Schlüssel #279 gefunden: {a11 = 11, a12 =  8, a21 = 19, a22 =  5}, Determinante:  -97 =   7 (mod 26), Invertierbar:  true
+Schlüssel #280 gefunden: {a11 = 11, a12 =  8, a21 = 19, a22 = 18}, Determinante:   46 =  20 (mod 26), Invertierbar: false
+Schlüssel #281 gefunden: {a11 = 11, a12 =  8, a21 = 21, a22 =  8}, Determinante:  -80 =  24 (mod 26), Invertierbar: false
+Schlüssel #282 gefunden: {a11 = 11, a12 =  8, a21 = 21, a22 = 21}, Determinante:   63 =  11 (mod 26), Invertierbar:  true
+Schlüssel #283 gefunden: {a11 = 11, a12 =  8, a21 = 23, a22 = 11}, Determinante:  -63 =  15 (mod 26), Invertierbar:  true
+Schlüssel #284 gefunden: {a11 = 11, a12 =  8, a21 = 23, a22 = 24}, Determinante:   80 =   2 (mod 26), Invertierbar: false
+Schlüssel #285 gefunden: {a11 = 11, a12 =  8, a21 = 25, a22 =  1}, Determinante: -189 =  19 (mod 26), Invertierbar:  true
+Schlüssel #286 gefunden: {a11 = 11, a12 =  8, a21 = 25, a22 = 14}, Determinante:  -46 =   6 (mod 26), Invertierbar: false
+Schlüssel #287 gefunden: {a11 = 11, a12 = 21, a21 =  1, a22 =  4}, Determinante:   23 =  23 (mod 26), Invertierbar:  true
+Schlüssel #288 gefunden: {a11 = 11, a12 = 21, a21 =  1, a22 = 17}, Determinante:  166 =  10 (mod 26), Invertierbar: false
+Schlüssel #289 gefunden: {a11 = 11, a12 = 21, a21 =  3, a22 =  7}, Determinante:   14 =  14 (mod 26), Invertierbar: false
+Schlüssel #290 gefunden: {a11 = 11, a12 = 21, a21 =  3, a22 = 20}, Determinante:  157 =   1 (mod 26), Invertierbar:  true
+Schlüssel #291 gefunden: {a11 = 11, a12 = 21, a21 =  5, a22 = 10}, Determinante:    5 =   5 (mod 26), Invertierbar:  true
+Schlüssel #292 gefunden: {a11 = 11, a12 = 21, a21 =  5, a22 = 23}, Determinante:  148 =  18 (mod 26), Invertierbar: false
+Schlüssel #293 gefunden: {a11 = 11, a12 = 21, a21 =  7, a22 =  0}, Determinante: -147 =   9 (mod 26), Invertierbar:  true
+Schlüssel #294 gefunden: {a11 = 11, a12 = 21, a21 =  7, a22 = 13}, Determinante:   -4 =  22 (mod 26), Invertierbar: false
+Schlüssel #295 gefunden: {a11 = 11, a12 = 21, a21 =  9, a22 =  3}, Determinante: -156 =   0 (mod 26), Invertierbar: false
+Schlüssel #296 gefunden: {a11 = 11, a12 = 21, a21 =  9, a22 = 16}, Determinante:  -13 =  13 (mod 26), Invertierbar: false
+Schlüssel #297 gefunden: {a11 = 11, a12 = 21, a21 = 11, a22 =  6}, Determinante: -165 =  17 (mod 26), Invertierbar:  true
+Schlüssel #298 gefunden: {a11 = 11, a12 = 21, a21 = 11, a22 = 19}, Determinante:  -22 =   4 (mod 26), Invertierbar: false
+Schlüssel #299 gefunden: {a11 = 11, a12 = 21, a21 = 13, a22 =  9}, Determinante: -174 =   8 (mod 26), Invertierbar: false
+Schlüssel #300 gefunden: {a11 = 11, a12 = 21, a21 = 13, a22 = 22}, Determinante:  -31 =  21 (mod 26), Invertierbar:  true
+Schlüssel #301 gefunden: {a11 = 11, a12 = 21, a21 = 15, a22 = 12}, Determinante: -183 =  25 (mod 26), Invertierbar:  true
+Schlüssel #302 gefunden: {a11 = 11, a12 = 21, a21 = 15, a22 = 25}, Determinante:  -40 =  12 (mod 26), Invertierbar: false
+Schlüssel #303 gefunden: {a11 = 11, a12 = 21, a21 = 17, a22 =  2}, Determinante: -335 =   3 (mod 26), Invertierbar:  true
+Schlüssel #304 gefunden: {a11 = 11, a12 = 21, a21 = 17, a22 = 15}, Determinante: -192 =  16 (mod 26), Invertierbar: false
+Schlüssel #305 gefunden: {a11 = 11, a12 = 21, a21 = 19, a22 =  5}, Determinante: -344 =  20 (mod 26), Invertierbar: false
+Schlüssel #306 gefunden: {a11 = 11, a12 = 21, a21 = 19, a22 = 18}, Determinante: -201 =   7 (mod 26), Invertierbar:  true
+Schlüssel #307 gefunden: {a11 = 11, a12 = 21, a21 = 21, a22 =  8}, Determinante: -353 =  11 (mod 26), Invertierbar:  true
+Schlüssel #308 gefunden: {a11 = 11, a12 = 21, a21 = 21, a22 = 21}, Determinante: -210 =  24 (mod 26), Invertierbar: false
+Schlüssel #309 gefunden: {a11 = 11, a12 = 21, a21 = 23, a22 = 11}, Determinante: -362 =   2 (mod 26), Invertierbar: false
+Schlüssel #310 gefunden: {a11 = 11, a12 = 21, a21 = 23, a22 = 24}, Determinante: -219 =  15 (mod 26), Invertierbar:  true
+Schlüssel #311 gefunden: {a11 = 11, a12 = 21, a21 = 25, a22 =  1}, Determinante: -514 =   6 (mod 26), Invertierbar: false
+Schlüssel #312 gefunden: {a11 = 11, a12 = 21, a21 = 25, a22 = 14}, Determinante: -371 =  19 (mod 26), Invertierbar:  true
+
+Fortschritt: i: 12, j: 20, k: 21, l: 22, keyCounter: 225.000
+Schlüssel #313 gefunden: {a11 = 13, a12 = 11, a21 =  1, a22 =  4}, Determinante:   41 =  15 (mod 26), Invertierbar:  true
+Schlüssel #314 gefunden: {a11 = 13, a12 = 11, a21 =  1, a22 = 17}, Determinante:  210 =   2 (mod 26), Invertierbar: false
+Schlüssel #315 gefunden: {a11 = 13, a12 = 11, a21 =  3, a22 =  7}, Determinante:   58 =   6 (mod 26), Invertierbar: false
+Schlüssel #316 gefunden: {a11 = 13, a12 = 11, a21 =  3, a22 = 20}, Determinante:  227 =  19 (mod 26), Invertierbar:  true
+Schlüssel #317 gefunden: {a11 = 13, a12 = 11, a21 =  5, a22 = 10}, Determinante:   75 =  23 (mod 26), Invertierbar:  true
+Schlüssel #318 gefunden: {a11 = 13, a12 = 11, a21 =  5, a22 = 23}, Determinante:  244 =  10 (mod 26), Invertierbar: false
+Schlüssel #319 gefunden: {a11 = 13, a12 = 11, a21 =  7, a22 =  0}, Determinante:  -77 =   1 (mod 26), Invertierbar:  true
+Schlüssel #320 gefunden: {a11 = 13, a12 = 11, a21 =  7, a22 = 13}, Determinante:   92 =  14 (mod 26), Invertierbar: false
+Schlüssel #321 gefunden: {a11 = 13, a12 = 11, a21 =  9, a22 =  3}, Determinante:  -60 =  18 (mod 26), Invertierbar: false
+Schlüssel #322 gefunden: {a11 = 13, a12 = 11, a21 =  9, a22 = 16}, Determinante:  109 =   5 (mod 26), Invertierbar:  true
+Schlüssel #323 gefunden: {a11 = 13, a12 = 11, a21 = 11, a22 =  6}, Determinante:  -43 =   9 (mod 26), Invertierbar:  true
+Schlüssel #324 gefunden: {a11 = 13, a12 = 11, a21 = 11, a22 = 19}, Determinante:  126 =  22 (mod 26), Invertierbar: false
+Schlüssel #325 gefunden: {a11 = 13, a12 = 11, a21 = 13, a22 =  9}, Determinante:  -26 =   0 (mod 26), Invertierbar: false
+Schlüssel #326 gefunden: {a11 = 13, a12 = 11, a21 = 13, a22 = 22}, Determinante:  143 =  13 (mod 26), Invertierbar: false
+Schlüssel #327 gefunden: {a11 = 13, a12 = 11, a21 = 15, a22 = 12}, Determinante:   -9 =  17 (mod 26), Invertierbar:  true
+Schlüssel #328 gefunden: {a11 = 13, a12 = 11, a21 = 15, a22 = 25}, Determinante:  160 =   4 (mod 26), Invertierbar: false
+Schlüssel #329 gefunden: {a11 = 13, a12 = 11, a21 = 17, a22 =  2}, Determinante: -161 =  21 (mod 26), Invertierbar:  true
+Schlüssel #330 gefunden: {a11 = 13, a12 = 11, a21 = 17, a22 = 15}, Determinante:    8 =   8 (mod 26), Invertierbar: false
+Schlüssel #331 gefunden: {a11 = 13, a12 = 11, a21 = 19, a22 =  5}, Determinante: -144 =  12 (mod 26), Invertierbar: false
+Schlüssel #332 gefunden: {a11 = 13, a12 = 11, a21 = 19, a22 = 18}, Determinante:   25 =  25 (mod 26), Invertierbar:  true
+Schlüssel #333 gefunden: {a11 = 13, a12 = 11, a21 = 21, a22 =  8}, Determinante: -127 =   3 (mod 26), Invertierbar:  true
+Schlüssel #334 gefunden: {a11 = 13, a12 = 11, a21 = 21, a22 = 21}, Determinante:   42 =  16 (mod 26), Invertierbar: false
+Schlüssel #335 gefunden: {a11 = 13, a12 = 11, a21 = 23, a22 = 11}, Determinante: -110 =  20 (mod 26), Invertierbar: false
+Schlüssel #336 gefunden: {a11 = 13, a12 = 11, a21 = 23, a22 = 24}, Determinante:   59 =   7 (mod 26), Invertierbar:  true
+Schlüssel #337 gefunden: {a11 = 13, a12 = 11, a21 = 25, a22 =  1}, Determinante: -262 =  24 (mod 26), Invertierbar: false
+Schlüssel #338 gefunden: {a11 = 13, a12 = 11, a21 = 25, a22 = 14}, Determinante:  -93 =  11 (mod 26), Invertierbar:  true
+Schlüssel #339 gefunden: {a11 = 13, a12 = 24, a21 =  1, a22 =  4}, Determinante:   28 =   2 (mod 26), Invertierbar: false
+Schlüssel #340 gefunden: {a11 = 13, a12 = 24, a21 =  1, a22 = 17}, Determinante:  197 =  15 (mod 26), Invertierbar:  true
+Schlüssel #341 gefunden: {a11 = 13, a12 = 24, a21 =  3, a22 =  7}, Determinante:   19 =  19 (mod 26), Invertierbar:  true
+Schlüssel #342 gefunden: {a11 = 13, a12 = 24, a21 =  3, a22 = 20}, Determinante:  188 =   6 (mod 26), Invertierbar: false
+Schlüssel #343 gefunden: {a11 = 13, a12 = 24, a21 =  5, a22 = 10}, Determinante:   10 =  10 (mod 26), Invertierbar: false
+Schlüssel #344 gefunden: {a11 = 13, a12 = 24, a21 =  5, a22 = 23}, Determinante:  179 =  23 (mod 26), Invertierbar:  true
+Schlüssel #345 gefunden: {a11 = 13, a12 = 24, a21 =  7, a22 =  0}, Determinante: -168 =  14 (mod 26), Invertierbar: false
+Schlüssel #346 gefunden: {a11 = 13, a12 = 24, a21 =  7, a22 = 13}, Determinante:    1 =   1 (mod 26), Invertierbar:  true
+Schlüssel #347 gefunden: {a11 = 13, a12 = 24, a21 =  9, a22 =  3}, Determinante: -177 =   5 (mod 26), Invertierbar:  true
+Schlüssel #348 gefunden: {a11 = 13, a12 = 24, a21 =  9, a22 = 16}, Determinante:   -8 =  18 (mod 26), Invertierbar: false
+Schlüssel #349 gefunden: {a11 = 13, a12 = 24, a21 = 11, a22 =  6}, Determinante: -186 =  22 (mod 26), Invertierbar: false
+Schlüssel #350 gefunden: {a11 = 13, a12 = 24, a21 = 11, a22 = 19}, Determinante:  -17 =   9 (mod 26), Invertierbar:  true
+Schlüssel #351 gefunden: {a11 = 13, a12 = 24, a21 = 13, a22 =  9}, Determinante: -195 =  13 (mod 26), Invertierbar: false
+Schlüssel #352 gefunden: {a11 = 13, a12 = 24, a21 = 13, a22 = 22}, Determinante:  -26 =   0 (mod 26), Invertierbar: false
+Schlüssel #353 gefunden: {a11 = 13, a12 = 24, a21 = 15, a22 = 12}, Determinante: -204 =   4 (mod 26), Invertierbar: false
+Schlüssel #354 gefunden: {a11 = 13, a12 = 24, a21 = 15, a22 = 25}, Determinante:  -35 =  17 (mod 26), Invertierbar:  true
+Schlüssel #355 gefunden: {a11 = 13, a12 = 24, a21 = 17, a22 =  2}, Determinante: -382 =   8 (mod 26), Invertierbar: false
+Schlüssel #356 gefunden: {a11 = 13, a12 = 24, a21 = 17, a22 = 15}, Determinante: -213 =  21 (mod 26), Invertierbar:  true
+Schlüssel #357 gefunden: {a11 = 13, a12 = 24, a21 = 19, a22 =  5}, Determinante: -391 =  25 (mod 26), Invertierbar:  true
+Schlüssel #358 gefunden: {a11 = 13, a12 = 24, a21 = 19, a22 = 18}, Determinante: -222 =  12 (mod 26), Invertierbar: false
+Schlüssel #359 gefunden: {a11 = 13, a12 = 24, a21 = 21, a22 =  8}, Determinante: -400 =  16 (mod 26), Invertierbar: false
+Schlüssel #360 gefunden: {a11 = 13, a12 = 24, a21 = 21, a22 = 21}, Determinante: -231 =   3 (mod 26), Invertierbar:  true
+Schlüssel #361 gefunden: {a11 = 13, a12 = 24, a21 = 23, a22 = 11}, Determinante: -409 =   7 (mod 26), Invertierbar:  true
+Schlüssel #362 gefunden: {a11 = 13, a12 = 24, a21 = 23, a22 = 24}, Determinante: -240 =  20 (mod 26), Invertierbar: false
+Schlüssel #363 gefunden: {a11 = 13, a12 = 24, a21 = 25, a22 =  1}, Determinante: -587 =  11 (mod 26), Invertierbar:  true
+Schlüssel #364 gefunden: {a11 = 13, a12 = 24, a21 = 25, a22 = 14}, Determinante: -418 =  24 (mod 26), Invertierbar: false
+Schlüssel #365 gefunden: {a11 = 15, a12 =  1, a21 =  1, a22 =  4}, Determinante:   59 =   7 (mod 26), Invertierbar:  true
+Schlüssel #366 gefunden: {a11 = 15, a12 =  1, a21 =  1, a22 = 17}, Determinante:  254 =  20 (mod 26), Invertierbar: false
+Schlüssel #367 gefunden: {a11 = 15, a12 =  1, a21 =  3, a22 =  7}, Determinante:  102 =  24 (mod 26), Invertierbar: false
+Schlüssel #368 gefunden: {a11 = 15, a12 =  1, a21 =  3, a22 = 20}, Determinante:  297 =  11 (mod 26), Invertierbar:  true
+Schlüssel #369 gefunden: {a11 = 15, a12 =  1, a21 =  5, a22 = 10}, Determinante:  145 =  15 (mod 26), Invertierbar:  true
+Schlüssel #370 gefunden: {a11 = 15, a12 =  1, a21 =  5, a22 = 23}, Determinante:  340 =   2 (mod 26), Invertierbar: false
+Schlüssel #371 gefunden: {a11 = 15, a12 =  1, a21 =  7, a22 =  0}, Determinante:   -7 =  19 (mod 26), Invertierbar:  true
+Schlüssel #372 gefunden: {a11 = 15, a12 =  1, a21 =  7, a22 = 13}, Determinante:  188 =   6 (mod 26), Invertierbar: false
+Schlüssel #373 gefunden: {a11 = 15, a12 =  1, a21 =  9, a22 =  3}, Determinante:   36 =  10 (mod 26), Invertierbar: false
+Schlüssel #374 gefunden: {a11 = 15, a12 =  1, a21 =  9, a22 = 16}, Determinante:  231 =  23 (mod 26), Invertierbar:  true
+Schlüssel #375 gefunden: {a11 = 15, a12 =  1, a21 = 11, a22 =  6}, Determinante:   79 =   1 (mod 26), Invertierbar:  true
+Schlüssel #376 gefunden: {a11 = 15, a12 =  1, a21 = 11, a22 = 19}, Determinante:  274 =  14 (mod 26), Invertierbar: false
+Schlüssel #377 gefunden: {a11 = 15, a12 =  1, a21 = 13, a22 =  9}, Determinante:  122 =  18 (mod 26), Invertierbar: false
+Schlüssel #378 gefunden: {a11 = 15, a12 =  1, a21 = 13, a22 = 22}, Determinante:  317 =   5 (mod 26), Invertierbar:  true
+Schlüssel #379 gefunden: {a11 = 15, a12 =  1, a21 = 15, a22 = 12}, Determinante:  165 =   9 (mod 26), Invertierbar:  true
+Schlüssel #380 gefunden: {a11 = 15, a12 =  1, a21 = 15, a22 = 25}, Determinante:  360 =  22 (mod 26), Invertierbar: false
+Schlüssel #381 gefunden: {a11 = 15, a12 =  1, a21 = 17, a22 =  2}, Determinante:   13 =  13 (mod 26), Invertierbar: false
+Schlüssel #382 gefunden: {a11 = 15, a12 =  1, a21 = 17, a22 = 15}, Determinante:  208 =   0 (mod 26), Invertierbar: false
+Schlüssel #383 gefunden: {a11 = 15, a12 =  1, a21 = 19, a22 =  5}, Determinante:   56 =   4 (mod 26), Invertierbar: false
+Schlüssel #384 gefunden: {a11 = 15, a12 =  1, a21 = 19, a22 = 18}, Determinante:  251 =  17 (mod 26), Invertierbar:  true
+Schlüssel #385 gefunden: {a11 = 15, a12 =  1, a21 = 21, a22 =  8}, Determinante:   99 =  21 (mod 26), Invertierbar:  true
+Schlüssel #386 gefunden: {a11 = 15, a12 =  1, a21 = 21, a22 = 21}, Determinante:  294 =   8 (mod 26), Invertierbar: false
+Schlüssel #387 gefunden: {a11 = 15, a12 =  1, a21 = 23, a22 = 11}, Determinante:  142 =  12 (mod 26), Invertierbar: false
+Schlüssel #388 gefunden: {a11 = 15, a12 =  1, a21 = 23, a22 = 24}, Determinante:  337 =  25 (mod 26), Invertierbar:  true
+Schlüssel #389 gefunden: {a11 = 15, a12 =  1, a21 = 25, a22 =  1}, Determinante:  -10 =  16 (mod 26), Invertierbar: false
+Schlüssel #390 gefunden: {a11 = 15, a12 =  1, a21 = 25, a22 = 14}, Determinante:  185 =   3 (mod 26), Invertierbar:  true
+Schlüssel #391 gefunden: {a11 = 15, a12 = 14, a21 =  1, a22 =  4}, Determinante:   46 =  20 (mod 26), Invertierbar: false
+Schlüssel #392 gefunden: {a11 = 15, a12 = 14, a21 =  1, a22 = 17}, Determinante:  241 =   7 (mod 26), Invertierbar:  true
+Schlüssel #393 gefunden: {a11 = 15, a12 = 14, a21 =  3, a22 =  7}, Determinante:   63 =  11 (mod 26), Invertierbar:  true
+Schlüssel #394 gefunden: {a11 = 15, a12 = 14, a21 =  3, a22 = 20}, Determinante:  258 =  24 (mod 26), Invertierbar: false
+Schlüssel #395 gefunden: {a11 = 15, a12 = 14, a21 =  5, a22 = 10}, Determinante:   80 =   2 (mod 26), Invertierbar: false
+Schlüssel #396 gefunden: {a11 = 15, a12 = 14, a21 =  5, a22 = 23}, Determinante:  275 =  15 (mod 26), Invertierbar:  true
+Schlüssel #397 gefunden: {a11 = 15, a12 = 14, a21 =  7, a22 =  0}, Determinante:  -98 =   6 (mod 26), Invertierbar: false
+Schlüssel #398 gefunden: {a11 = 15, a12 = 14, a21 =  7, a22 = 13}, Determinante:   97 =  19 (mod 26), Invertierbar:  true
+Schlüssel #399 gefunden: {a11 = 15, a12 = 14, a21 =  9, a22 =  3}, Determinante:  -81 =  23 (mod 26), Invertierbar:  true
+Schlüssel #400 gefunden: {a11 = 15, a12 = 14, a21 =  9, a22 = 16}, Determinante:  114 =  10 (mod 26), Invertierbar: false
+Schlüssel #401 gefunden: {a11 = 15, a12 = 14, a21 = 11, a22 =  6}, Determinante:  -64 =  14 (mod 26), Invertierbar: false
+Schlüssel #402 gefunden: {a11 = 15, a12 = 14, a21 = 11, a22 = 19}, Determinante:  131 =   1 (mod 26), Invertierbar:  true
+Schlüssel #403 gefunden: {a11 = 15, a12 = 14, a21 = 13, a22 =  9}, Determinante:  -47 =   5 (mod 26), Invertierbar:  true
+Schlüssel #404 gefunden: {a11 = 15, a12 = 14, a21 = 13, a22 = 22}, Determinante:  148 =  18 (mod 26), Invertierbar: false
+Schlüssel #405 gefunden: {a11 = 15, a12 = 14, a21 = 15, a22 = 12}, Determinante:  -30 =  22 (mod 26), Invertierbar: false
+Schlüssel #406 gefunden: {a11 = 15, a12 = 14, a21 = 15, a22 = 25}, Determinante:  165 =   9 (mod 26), Invertierbar:  true
+Schlüssel #407 gefunden: {a11 = 15, a12 = 14, a21 = 17, a22 =  2}, Determinante: -208 =   0 (mod 26), Invertierbar: false
+Schlüssel #408 gefunden: {a11 = 15, a12 = 14, a21 = 17, a22 = 15}, Determinante:  -13 =  13 (mod 26), Invertierbar: false
+Schlüssel #409 gefunden: {a11 = 15, a12 = 14, a21 = 19, a22 =  5}, Determinante: -191 =  17 (mod 26), Invertierbar:  true
+Schlüssel #410 gefunden: {a11 = 15, a12 = 14, a21 = 19, a22 = 18}, Determinante:    4 =   4 (mod 26), Invertierbar: false
+Schlüssel #411 gefunden: {a11 = 15, a12 = 14, a21 = 21, a22 =  8}, Determinante: -174 =   8 (mod 26), Invertierbar: false
+Schlüssel #412 gefunden: {a11 = 15, a12 = 14, a21 = 21, a22 = 21}, Determinante:   21 =  21 (mod 26), Invertierbar:  true
+Schlüssel #413 gefunden: {a11 = 15, a12 = 14, a21 = 23, a22 = 11}, Determinante: -157 =  25 (mod 26), Invertierbar:  true
+Schlüssel #414 gefunden: {a11 = 15, a12 = 14, a21 = 23, a22 = 24}, Determinante:   38 =  12 (mod 26), Invertierbar: false
+Schlüssel #415 gefunden: {a11 = 15, a12 = 14, a21 = 25, a22 =  1}, Determinante: -335 =   3 (mod 26), Invertierbar:  true
+Schlüssel #416 gefunden: {a11 = 15, a12 = 14, a21 = 25, a22 = 14}, Determinante: -140 =  16 (mod 26), Invertierbar: false
+
+Fortschritt: i: 17, j:  1, k: 20, l: 12, keyCounter: 300.000
+Schlüssel #417 gefunden: {a11 = 17, a12 =  4, a21 =  1, a22 =  4}, Determinante:   64 =  12 (mod 26), Invertierbar: false
+Schlüssel #418 gefunden: {a11 = 17, a12 =  4, a21 =  1, a22 = 17}, Determinante:  285 =  25 (mod 26), Invertierbar:  true
+Schlüssel #419 gefunden: {a11 = 17, a12 =  4, a21 =  3, a22 =  7}, Determinante:  107 =   3 (mod 26), Invertierbar:  true
+Schlüssel #420 gefunden: {a11 = 17, a12 =  4, a21 =  3, a22 = 20}, Determinante:  328 =  16 (mod 26), Invertierbar: false
+Schlüssel #421 gefunden: {a11 = 17, a12 =  4, a21 =  5, a22 = 10}, Determinante:  150 =  20 (mod 26), Invertierbar: false
+Schlüssel #422 gefunden: {a11 = 17, a12 =  4, a21 =  5, a22 = 23}, Determinante:  371 =   7 (mod 26), Invertierbar:  true
+Schlüssel #423 gefunden: {a11 = 17, a12 =  4, a21 =  7, a22 =  0}, Determinante:  -28 =  24 (mod 26), Invertierbar: false
+Schlüssel #424 gefunden: {a11 = 17, a12 =  4, a21 =  7, a22 = 13}, Determinante:  193 =  11 (mod 26), Invertierbar:  true
+Schlüssel #425 gefunden: {a11 = 17, a12 =  4, a21 =  9, a22 =  3}, Determinante:   15 =  15 (mod 26), Invertierbar:  true
+Schlüssel #426 gefunden: {a11 = 17, a12 =  4, a21 =  9, a22 = 16}, Determinante:  236 =   2 (mod 26), Invertierbar: false
+Schlüssel #427 gefunden: {a11 = 17, a12 =  4, a21 = 11, a22 =  6}, Determinante:   58 =   6 (mod 26), Invertierbar: false
+Schlüssel #428 gefunden: {a11 = 17, a12 =  4, a21 = 11, a22 = 19}, Determinante:  279 =  19 (mod 26), Invertierbar:  true
+Schlüssel #429 gefunden: {a11 = 17, a12 =  4, a21 = 13, a22 =  9}, Determinante:  101 =  23 (mod 26), Invertierbar:  true
+Schlüssel #430 gefunden: {a11 = 17, a12 =  4, a21 = 13, a22 = 22}, Determinante:  322 =  10 (mod 26), Invertierbar: false
+Schlüssel #431 gefunden: {a11 = 17, a12 =  4, a21 = 15, a22 = 12}, Determinante:  144 =  14 (mod 26), Invertierbar: false
+Schlüssel #432 gefunden: {a11 = 17, a12 =  4, a21 = 15, a22 = 25}, Determinante:  365 =   1 (mod 26), Invertierbar:  true
+Schlüssel #433 gefunden: {a11 = 17, a12 =  4, a21 = 17, a22 =  2}, Determinante:  -34 =  18 (mod 26), Invertierbar: false
+Schlüssel #434 gefunden: {a11 = 17, a12 =  4, a21 = 17, a22 = 15}, Determinante:  187 =   5 (mod 26), Invertierbar:  true
+Schlüssel #435 gefunden: {a11 = 17, a12 =  4, a21 = 19, a22 =  5}, Determinante:    9 =   9 (mod 26), Invertierbar:  true
+Schlüssel #436 gefunden: {a11 = 17, a12 =  4, a21 = 19, a22 = 18}, Determinante:  230 =  22 (mod 26), Invertierbar: false
+Schlüssel #437 gefunden: {a11 = 17, a12 =  4, a21 = 21, a22 =  8}, Determinante:   52 =   0 (mod 26), Invertierbar: false
+Schlüssel #438 gefunden: {a11 = 17, a12 =  4, a21 = 21, a22 = 21}, Determinante:  273 =  13 (mod 26), Invertierbar: false
+Schlüssel #439 gefunden: {a11 = 17, a12 =  4, a21 = 23, a22 = 11}, Determinante:   95 =  17 (mod 26), Invertierbar:  true
+Schlüssel #440 gefunden: {a11 = 17, a12 =  4, a21 = 23, a22 = 24}, Determinante:  316 =   4 (mod 26), Invertierbar: false
+Schlüssel #441 gefunden: {a11 = 17, a12 =  4, a21 = 25, a22 =  1}, Determinante:  -83 =  21 (mod 26), Invertierbar:  true
+Schlüssel #442 gefunden: {a11 = 17, a12 =  4, a21 = 25, a22 = 14}, Determinante:  138 =   8 (mod 26), Invertierbar: false
+Schlüssel #443 gefunden: {a11 = 17, a12 = 17, a21 =  1, a22 =  4}, Determinante:   51 =  25 (mod 26), Invertierbar:  true
+Schlüssel #444 gefunden: {a11 = 17, a12 = 17, a21 =  1, a22 = 17}, Determinante:  272 =  12 (mod 26), Invertierbar: false
+Schlüssel #445 gefunden: {a11 = 17, a12 = 17, a21 =  3, a22 =  7}, Determinante:   68 =  16 (mod 26), Invertierbar: false
+Schlüssel #446 gefunden: {a11 = 17, a12 = 17, a21 =  3, a22 = 20}, Determinante:  289 =   3 (mod 26), Invertierbar:  true
+Schlüssel #447 gefunden: {a11 = 17, a12 = 17, a21 =  5, a22 = 10}, Determinante:   85 =   7 (mod 26), Invertierbar:  true
+Schlüssel #448 gefunden: {a11 = 17, a12 = 17, a21 =  5, a22 = 23}, Determinante:  306 =  20 (mod 26), Invertierbar: false
+Schlüssel #449 gefunden: {a11 = 17, a12 = 17, a21 =  7, a22 =  0}, Determinante: -119 =  11 (mod 26), Invertierbar:  true
+Schlüssel #450 gefunden: {a11 = 17, a12 = 17, a21 =  7, a22 = 13}, Determinante:  102 =  24 (mod 26), Invertierbar: false
+Schlüssel #451 gefunden: {a11 = 17, a12 = 17, a21 =  9, a22 =  3}, Determinante: -102 =   2 (mod 26), Invertierbar: false
+Schlüssel #452 gefunden: {a11 = 17, a12 = 17, a21 =  9, a22 = 16}, Determinante:  119 =  15 (mod 26), Invertierbar:  true
+Schlüssel #453 gefunden: {a11 = 17, a12 = 17, a21 = 11, a22 =  6}, Determinante:  -85 =  19 (mod 26), Invertierbar:  true
+Schlüssel #454 gefunden: {a11 = 17, a12 = 17, a21 = 11, a22 = 19}, Determinante:  136 =   6 (mod 26), Invertierbar: false
+Schlüssel #455 gefunden: {a11 = 17, a12 = 17, a21 = 13, a22 =  9}, Determinante:  -68 =  10 (mod 26), Invertierbar: false
+Schlüssel #456 gefunden: {a11 = 17, a12 = 17, a21 = 13, a22 = 22}, Determinante:  153 =  23 (mod 26), Invertierbar:  true
+Schlüssel #457 gefunden: {a11 = 17, a12 = 17, a21 = 15, a22 = 12}, Determinante:  -51 =   1 (mod 26), Invertierbar:  true
+Schlüssel #458 gefunden: {a11 = 17, a12 = 17, a21 = 15, a22 = 25}, Determinante:  170 =  14 (mod 26), Invertierbar: false
+Schlüssel #459 gefunden: {a11 = 17, a12 = 17, a21 = 17, a22 =  2}, Determinante: -255 =   5 (mod 26), Invertierbar:  true
+Schlüssel #460 gefunden: {a11 = 17, a12 = 17, a21 = 17, a22 = 15}, Determinante:  -34 =  18 (mod 26), Invertierbar: false
+Schlüssel #461 gefunden: {a11 = 17, a12 = 17, a21 = 19, a22 =  5}, Determinante: -238 =  22 (mod 26), Invertierbar: false
+Schlüssel #462 gefunden: {a11 = 17, a12 = 17, a21 = 19, a22 = 18}, Determinante:  -17 =   9 (mod 26), Invertierbar:  true
+Schlüssel #463 gefunden: {a11 = 17, a12 = 17, a21 = 21, a22 =  8}, Determinante: -221 =  13 (mod 26), Invertierbar: false
+Schlüssel #464 gefunden: {a11 = 17, a12 = 17, a21 = 21, a22 = 21}, Determinante:    0 =   0 (mod 26), Invertierbar: false
+Schlüssel #465 gefunden: {a11 = 17, a12 = 17, a21 = 23, a22 = 11}, Determinante: -204 =   4 (mod 26), Invertierbar: false
+Schlüssel #466 gefunden: {a11 = 17, a12 = 17, a21 = 23, a22 = 24}, Determinante:   17 =  17 (mod 26), Invertierbar:  true
+Schlüssel #467 gefunden: {a11 = 17, a12 = 17, a21 = 25, a22 =  1}, Determinante: -408 =   8 (mod 26), Invertierbar: false
+Schlüssel #468 gefunden: {a11 = 17, a12 = 17, a21 = 25, a22 = 14}, Determinante: -187 =  21 (mod 26), Invertierbar:  true
+Schlüssel #469 gefunden: {a11 = 19, a12 =  7, a21 =  1, a22 =  4}, Determinante:   69 =  17 (mod 26), Invertierbar:  true
+Schlüssel #470 gefunden: {a11 = 19, a12 =  7, a21 =  1, a22 = 17}, Determinante:  316 =   4 (mod 26), Invertierbar: false
+Schlüssel #471 gefunden: {a11 = 19, a12 =  7, a21 =  3, a22 =  7}, Determinante:  112 =   8 (mod 26), Invertierbar: false
+Schlüssel #472 gefunden: {a11 = 19, a12 =  7, a21 =  3, a22 = 20}, Determinante:  359 =  21 (mod 26), Invertierbar:  true
+Schlüssel #473 gefunden: {a11 = 19, a12 =  7, a21 =  5, a22 = 10}, Determinante:  155 =  25 (mod 26), Invertierbar:  true
+Schlüssel #474 gefunden: {a11 = 19, a12 =  7, a21 =  5, a22 = 23}, Determinante:  402 =  12 (mod 26), Invertierbar: false
+Schlüssel #475 gefunden: {a11 = 19, a12 =  7, a21 =  7, a22 =  0}, Determinante:  -49 =   3 (mod 26), Invertierbar:  true
+Schlüssel #476 gefunden: {a11 = 19, a12 =  7, a21 =  7, a22 = 13}, Determinante:  198 =  16 (mod 26), Invertierbar: false
+Schlüssel #477 gefunden: {a11 = 19, a12 =  7, a21 =  9, a22 =  3}, Determinante:   -6 =  20 (mod 26), Invertierbar: false
+Schlüssel #478 gefunden: {a11 = 19, a12 =  7, a21 =  9, a22 = 16}, Determinante:  241 =   7 (mod 26), Invertierbar:  true
+Schlüssel #479 gefunden: {a11 = 19, a12 =  7, a21 = 11, a22 =  6}, Determinante:   37 =  11 (mod 26), Invertierbar:  true
+Schlüssel #480 gefunden: {a11 = 19, a12 =  7, a21 = 11, a22 = 19}, Determinante:  284 =  24 (mod 26), Invertierbar: false
+Schlüssel #481 gefunden: {a11 = 19, a12 =  7, a21 = 13, a22 =  9}, Determinante:   80 =   2 (mod 26), Invertierbar: false
+Schlüssel #482 gefunden: {a11 = 19, a12 =  7, a21 = 13, a22 = 22}, Determinante:  327 =  15 (mod 26), Invertierbar:  true
+Schlüssel #483 gefunden: {a11 = 19, a12 =  7, a21 = 15, a22 = 12}, Determinante:  123 =  19 (mod 26), Invertierbar:  true
+Schlüssel #484 gefunden: {a11 = 19, a12 =  7, a21 = 15, a22 = 25}, Determinante:  370 =   6 (mod 26), Invertierbar: false
+Schlüssel #485 gefunden: {a11 = 19, a12 =  7, a21 = 17, a22 =  2}, Determinante:  -81 =  23 (mod 26), Invertierbar:  true
+Schlüssel #486 gefunden: {a11 = 19, a12 =  7, a21 = 17, a22 = 15}, Determinante:  166 =  10 (mod 26), Invertierbar: false
+Schlüssel #487 gefunden: {a11 = 19, a12 =  7, a21 = 19, a22 =  5}, Determinante:  -38 =  14 (mod 26), Invertierbar: false
+Schlüssel #488 gefunden: {a11 = 19, a12 =  7, a21 = 19, a22 = 18}, Determinante:  209 =   1 (mod 26), Invertierbar:  true
+Schlüssel #489 gefunden: {a11 = 19, a12 =  7, a21 = 21, a22 =  8}, Determinante:    5 =   5 (mod 26), Invertierbar:  true
+Schlüssel #490 gefunden: {a11 = 19, a12 =  7, a21 = 21, a22 = 21}, Determinante:  252 =  18 (mod 26), Invertierbar: false
+Schlüssel #491 gefunden: {a11 = 19, a12 =  7, a21 = 23, a22 = 11}, Determinante:   48 =  22 (mod 26), Invertierbar: false
+Schlüssel #492 gefunden: {a11 = 19, a12 =  7, a21 = 23, a22 = 24}, Determinante:  295 =   9 (mod 26), Invertierbar:  true
+Schlüssel #493 gefunden: {a11 = 19, a12 =  7, a21 = 25, a22 =  1}, Determinante: -156 =   0 (mod 26), Invertierbar: false
+Schlüssel #494 gefunden: {a11 = 19, a12 =  7, a21 = 25, a22 = 14}, Determinante:   91 =  13 (mod 26), Invertierbar: false
+Schlüssel #495 gefunden: {a11 = 19, a12 = 20, a21 =  1, a22 =  4}, Determinante:   56 =   4 (mod 26), Invertierbar: false
+Schlüssel #496 gefunden: {a11 = 19, a12 = 20, a21 =  1, a22 = 17}, Determinante:  303 =  17 (mod 26), Invertierbar:  true
+Schlüssel #497 gefunden: {a11 = 19, a12 = 20, a21 =  3, a22 =  7}, Determinante:   73 =  21 (mod 26), Invertierbar:  true
+Schlüssel #498 gefunden: {a11 = 19, a12 = 20, a21 =  3, a22 = 20}, Determinante:  320 =   8 (mod 26), Invertierbar: false
+Schlüssel #499 gefunden: {a11 = 19, a12 = 20, a21 =  5, a22 = 10}, Determinante:   90 =  12 (mod 26), Invertierbar: false
+Schlüssel #500 gefunden: {a11 = 19, a12 = 20, a21 =  5, a22 = 23}, Determinante:  337 =  25 (mod 26), Invertierbar:  true
+Schlüssel #501 gefunden: {a11 = 19, a12 = 20, a21 =  7, a22 =  0}, Determinante: -140 =  16 (mod 26), Invertierbar: false
+Schlüssel #502 gefunden: {a11 = 19, a12 = 20, a21 =  7, a22 = 13}, Determinante:  107 =   3 (mod 26), Invertierbar:  true
+Schlüssel #503 gefunden: {a11 = 19, a12 = 20, a21 =  9, a22 =  3}, Determinante: -123 =   7 (mod 26), Invertierbar:  true
+Schlüssel #504 gefunden: {a11 = 19, a12 = 20, a21 =  9, a22 = 16}, Determinante:  124 =  20 (mod 26), Invertierbar: false
+Schlüssel #505 gefunden: {a11 = 19, a12 = 20, a21 = 11, a22 =  6}, Determinante: -106 =  24 (mod 26), Invertierbar: false
+Schlüssel #506 gefunden: {a11 = 19, a12 = 20, a21 = 11, a22 = 19}, Determinante:  141 =  11 (mod 26), Invertierbar:  true
+Schlüssel #507 gefunden: {a11 = 19, a12 = 20, a21 = 13, a22 =  9}, Determinante:  -89 =  15 (mod 26), Invertierbar:  true
+Schlüssel #508 gefunden: {a11 = 19, a12 = 20, a21 = 13, a22 = 22}, Determinante:  158 =   2 (mod 26), Invertierbar: false
+Schlüssel #509 gefunden: {a11 = 19, a12 = 20, a21 = 15, a22 = 12}, Determinante:  -72 =   6 (mod 26), Invertierbar: false
+Schlüssel #510 gefunden: {a11 = 19, a12 = 20, a21 = 15, a22 = 25}, Determinante:  175 =  19 (mod 26), Invertierbar:  true
+Schlüssel #511 gefunden: {a11 = 19, a12 = 20, a21 = 17, a22 =  2}, Determinante: -302 =  10 (mod 26), Invertierbar: false
+Schlüssel #512 gefunden: {a11 = 19, a12 = 20, a21 = 17, a22 = 15}, Determinante:  -55 =  23 (mod 26), Invertierbar:  true
+Schlüssel #513 gefunden: {a11 = 19, a12 = 20, a21 = 19, a22 =  5}, Determinante: -285 =   1 (mod 26), Invertierbar:  true
+Schlüssel #514 gefunden: {a11 = 19, a12 = 20, a21 = 19, a22 = 18}, Determinante:  -38 =  14 (mod 26), Invertierbar: false
+Schlüssel #515 gefunden: {a11 = 19, a12 = 20, a21 = 21, a22 =  8}, Determinante: -268 =  18 (mod 26), Invertierbar: false
+Schlüssel #516 gefunden: {a11 = 19, a12 = 20, a21 = 21, a22 = 21}, Determinante:  -21 =   5 (mod 26), Invertierbar:  true
+Schlüssel #517 gefunden: {a11 = 19, a12 = 20, a21 = 23, a22 = 11}, Determinante: -251 =   9 (mod 26), Invertierbar:  true
+Schlüssel #518 gefunden: {a11 = 19, a12 = 20, a21 = 23, a22 = 24}, Determinante:   -4 =  22 (mod 26), Invertierbar: false
+Schlüssel #519 gefunden: {a11 = 19, a12 = 20, a21 = 25, a22 =  1}, Determinante: -481 =  13 (mod 26), Invertierbar: false
+Schlüssel #520 gefunden: {a11 = 19, a12 = 20, a21 = 25, a22 = 14}, Determinante: -234 =   0 (mod 26), Invertierbar: false
+
+Fortschritt: i: 21, j:  8, k: 19, l:  2, keyCounter: 375.000
+Schlüssel #521 gefunden: {a11 = 21, a12 = 10, a21 =  1, a22 =  4}, Determinante:   74 =  22 (mod 26), Invertierbar: false
+Schlüssel #522 gefunden: {a11 = 21, a12 = 10, a21 =  1, a22 = 17}, Determinante:  347 =   9 (mod 26), Invertierbar:  true
+Schlüssel #523 gefunden: {a11 = 21, a12 = 10, a21 =  3, a22 =  7}, Determinante:  117 =  13 (mod 26), Invertierbar: false
+Schlüssel #524 gefunden: {a11 = 21, a12 = 10, a21 =  3, a22 = 20}, Determinante:  390 =   0 (mod 26), Invertierbar: false
+Schlüssel #525 gefunden: {a11 = 21, a12 = 10, a21 =  5, a22 = 10}, Determinante:  160 =   4 (mod 26), Invertierbar: false
+Schlüssel #526 gefunden: {a11 = 21, a12 = 10, a21 =  5, a22 = 23}, Determinante:  433 =  17 (mod 26), Invertierbar:  true
+Schlüssel #527 gefunden: {a11 = 21, a12 = 10, a21 =  7, a22 =  0}, Determinante:  -70 =   8 (mod 26), Invertierbar: false
+Schlüssel #528 gefunden: {a11 = 21, a12 = 10, a21 =  7, a22 = 13}, Determinante:  203 =  21 (mod 26), Invertierbar:  true
+Schlüssel #529 gefunden: {a11 = 21, a12 = 10, a21 =  9, a22 =  3}, Determinante:  -27 =  25 (mod 26), Invertierbar:  true
+Schlüssel #530 gefunden: {a11 = 21, a12 = 10, a21 =  9, a22 = 16}, Determinante:  246 =  12 (mod 26), Invertierbar: false
+Schlüssel #531 gefunden: {a11 = 21, a12 = 10, a21 = 11, a22 =  6}, Determinante:   16 =  16 (mod 26), Invertierbar: false
+Schlüssel #532 gefunden: {a11 = 21, a12 = 10, a21 = 11, a22 = 19}, Determinante:  289 =   3 (mod 26), Invertierbar:  true
+Schlüssel #533 gefunden: {a11 = 21, a12 = 10, a21 = 13, a22 =  9}, Determinante:   59 =   7 (mod 26), Invertierbar:  true
+Schlüssel #534 gefunden: {a11 = 21, a12 = 10, a21 = 13, a22 = 22}, Determinante:  332 =  20 (mod 26), Invertierbar: false
+Schlüssel #535 gefunden: {a11 = 21, a12 = 10, a21 = 15, a22 = 12}, Determinante:  102 =  24 (mod 26), Invertierbar: false
+Schlüssel #536 gefunden: {a11 = 21, a12 = 10, a21 = 15, a22 = 25}, Determinante:  375 =  11 (mod 26), Invertierbar:  true
+Schlüssel #537 gefunden: {a11 = 21, a12 = 10, a21 = 17, a22 =  2}, Determinante: -128 =   2 (mod 26), Invertierbar: false
+Schlüssel #538 gefunden: {a11 = 21, a12 = 10, a21 = 17, a22 = 15}, Determinante:  145 =  15 (mod 26), Invertierbar:  true
+Schlüssel #539 gefunden: {a11 = 21, a12 = 10, a21 = 19, a22 =  5}, Determinante:  -85 =  19 (mod 26), Invertierbar:  true
+Schlüssel #540 gefunden: {a11 = 21, a12 = 10, a21 = 19, a22 = 18}, Determinante:  188 =   6 (mod 26), Invertierbar: false
+Schlüssel #541 gefunden: {a11 = 21, a12 = 10, a21 = 21, a22 =  8}, Determinante:  -42 =  10 (mod 26), Invertierbar: false
+Schlüssel #542 gefunden: {a11 = 21, a12 = 10, a21 = 21, a22 = 21}, Determinante:  231 =  23 (mod 26), Invertierbar:  true
+Schlüssel #543 gefunden: {a11 = 21, a12 = 10, a21 = 23, a22 = 11}, Determinante:    1 =   1 (mod 26), Invertierbar:  true
+Schlüssel #544 gefunden: {a11 = 21, a12 = 10, a21 = 23, a22 = 24}, Determinante:  274 =  14 (mod 26), Invertierbar: false
+Schlüssel #545 gefunden: {a11 = 21, a12 = 10, a21 = 25, a22 =  1}, Determinante: -229 =   5 (mod 26), Invertierbar:  true
+Schlüssel #546 gefunden: {a11 = 21, a12 = 10, a21 = 25, a22 = 14}, Determinante:   44 =  18 (mod 26), Invertierbar: false
+Schlüssel #547 gefunden: {a11 = 21, a12 = 23, a21 =  1, a22 =  4}, Determinante:   61 =   9 (mod 26), Invertierbar:  true
+Schlüssel #548 gefunden: {a11 = 21, a12 = 23, a21 =  1, a22 = 17}, Determinante:  334 =  22 (mod 26), Invertierbar: false
+Schlüssel #549 gefunden: {a11 = 21, a12 = 23, a21 =  3, a22 =  7}, Determinante:   78 =   0 (mod 26), Invertierbar: false
+Schlüssel #550 gefunden: {a11 = 21, a12 = 23, a21 =  3, a22 = 20}, Determinante:  351 =  13 (mod 26), Invertierbar: false
+Schlüssel #551 gefunden: {a11 = 21, a12 = 23, a21 =  5, a22 = 10}, Determinante:   95 =  17 (mod 26), Invertierbar:  true
+Schlüssel #552 gefunden: {a11 = 21, a12 = 23, a21 =  5, a22 = 23}, Determinante:  368 =   4 (mod 26), Invertierbar: false
+Schlüssel #553 gefunden: {a11 = 21, a12 = 23, a21 =  7, a22 =  0}, Determinante: -161 =  21 (mod 26), Invertierbar:  true
+Schlüssel #554 gefunden: {a11 = 21, a12 = 23, a21 =  7, a22 = 13}, Determinante:  112 =   8 (mod 26), Invertierbar: false
+Schlüssel #555 gefunden: {a11 = 21, a12 = 23, a21 =  9, a22 =  3}, Determinante: -144 =  12 (mod 26), Invertierbar: false
+Schlüssel #556 gefunden: {a11 = 21, a12 = 23, a21 =  9, a22 = 16}, Determinante:  129 =  25 (mod 26), Invertierbar:  true
+Schlüssel #557 gefunden: {a11 = 21, a12 = 23, a21 = 11, a22 =  6}, Determinante: -127 =   3 (mod 26), Invertierbar:  true
+Schlüssel #558 gefunden: {a11 = 21, a12 = 23, a21 = 11, a22 = 19}, Determinante:  146 =  16 (mod 26), Invertierbar: false
+Schlüssel #559 gefunden: {a11 = 21, a12 = 23, a21 = 13, a22 =  9}, Determinante: -110 =  20 (mod 26), Invertierbar: false
+Schlüssel #560 gefunden: {a11 = 21, a12 = 23, a21 = 13, a22 = 22}, Determinante:  163 =   7 (mod 26), Invertierbar:  true
+Schlüssel #561 gefunden: {a11 = 21, a12 = 23, a21 = 15, a22 = 12}, Determinante:  -93 =  11 (mod 26), Invertierbar:  true
+Schlüssel #562 gefunden: {a11 = 21, a12 = 23, a21 = 15, a22 = 25}, Determinante:  180 =  24 (mod 26), Invertierbar: false
+Schlüssel #563 gefunden: {a11 = 21, a12 = 23, a21 = 17, a22 =  2}, Determinante: -349 =  15 (mod 26), Invertierbar:  true
+Schlüssel #564 gefunden: {a11 = 21, a12 = 23, a21 = 17, a22 = 15}, Determinante:  -76 =   2 (mod 26), Invertierbar: false
+Schlüssel #565 gefunden: {a11 = 21, a12 = 23, a21 = 19, a22 =  5}, Determinante: -332 =   6 (mod 26), Invertierbar: false
+Schlüssel #566 gefunden: {a11 = 21, a12 = 23, a21 = 19, a22 = 18}, Determinante:  -59 =  19 (mod 26), Invertierbar:  true
+Schlüssel #567 gefunden: {a11 = 21, a12 = 23, a21 = 21, a22 =  8}, Determinante: -315 =  23 (mod 26), Invertierbar:  true
+Schlüssel #568 gefunden: {a11 = 21, a12 = 23, a21 = 21, a22 = 21}, Determinante:  -42 =  10 (mod 26), Invertierbar: false
+Schlüssel #569 gefunden: {a11 = 21, a12 = 23, a21 = 23, a22 = 11}, Determinante: -298 =  14 (mod 26), Invertierbar: false
+Schlüssel #570 gefunden: {a11 = 21, a12 = 23, a21 = 23, a22 = 24}, Determinante:  -25 =   1 (mod 26), Invertierbar:  true
+Schlüssel #571 gefunden: {a11 = 21, a12 = 23, a21 = 25, a22 =  1}, Determinante: -554 =  18 (mod 26), Invertierbar: false
+Schlüssel #572 gefunden: {a11 = 21, a12 = 23, a21 = 25, a22 = 14}, Determinante: -281 =   5 (mod 26), Invertierbar:  true
+Schlüssel #573 gefunden: {a11 = 23, a12 =  0, a21 =  1, a22 =  4}, Determinante:   92 =  14 (mod 26), Invertierbar: false
+Schlüssel #574 gefunden: {a11 = 23, a12 =  0, a21 =  1, a22 = 17}, Determinante:  391 =   1 (mod 26), Invertierbar:  true
+Schlüssel #575 gefunden: {a11 = 23, a12 =  0, a21 =  3, a22 =  7}, Determinante:  161 =   5 (mod 26), Invertierbar:  true
+Schlüssel #576 gefunden: {a11 = 23, a12 =  0, a21 =  3, a22 = 20}, Determinante:  460 =  18 (mod 26), Invertierbar: false
+Schlüssel #577 gefunden: {a11 = 23, a12 =  0, a21 =  5, a22 = 10}, Determinante:  230 =  22 (mod 26), Invertierbar: false
+Schlüssel #578 gefunden: {a11 = 23, a12 =  0, a21 =  5, a22 = 23}, Determinante:  529 =   9 (mod 26), Invertierbar:  true
+Schlüssel #579 gefunden: {a11 = 23, a12 =  0, a21 =  7, a22 =  0}, Determinante:    0 =   0 (mod 26), Invertierbar: false
+Schlüssel #580 gefunden: {a11 = 23, a12 =  0, a21 =  7, a22 = 13}, Determinante:  299 =  13 (mod 26), Invertierbar: false
+Schlüssel #581 gefunden: {a11 = 23, a12 =  0, a21 =  9, a22 =  3}, Determinante:   69 =  17 (mod 26), Invertierbar:  true
+Schlüssel #582 gefunden: {a11 = 23, a12 =  0, a21 =  9, a22 = 16}, Determinante:  368 =   4 (mod 26), Invertierbar: false
+Schlüssel #583 gefunden: {a11 = 23, a12 =  0, a21 = 11, a22 =  6}, Determinante:  138 =   8 (mod 26), Invertierbar: false
+Schlüssel #584 gefunden: {a11 = 23, a12 =  0, a21 = 11, a22 = 19}, Determinante:  437 =  21 (mod 26), Invertierbar:  true
+Schlüssel #585 gefunden: {a11 = 23, a12 =  0, a21 = 13, a22 =  9}, Determinante:  207 =  25 (mod 26), Invertierbar:  true
+Schlüssel #586 gefunden: {a11 = 23, a12 =  0, a21 = 13, a22 = 22}, Determinante:  506 =  12 (mod 26), Invertierbar: false
+Schlüssel #587 gefunden: {a11 = 23, a12 =  0, a21 = 15, a22 = 12}, Determinante:  276 =  16 (mod 26), Invertierbar: false
+Schlüssel #588 gefunden: {a11 = 23, a12 =  0, a21 = 15, a22 = 25}, Determinante:  575 =   3 (mod 26), Invertierbar:  true
+Schlüssel #589 gefunden: {a11 = 23, a12 =  0, a21 = 17, a22 =  2}, Determinante:   46 =  20 (mod 26), Invertierbar: false
+Schlüssel #590 gefunden: {a11 = 23, a12 =  0, a21 = 17, a22 = 15}, Determinante:  345 =   7 (mod 26), Invertierbar:  true
+Schlüssel #591 gefunden: {a11 = 23, a12 =  0, a21 = 19, a22 =  5}, Determinante:  115 =  11 (mod 26), Invertierbar:  true
+Schlüssel #592 gefunden: {a11 = 23, a12 =  0, a21 = 19, a22 = 18}, Determinante:  414 =  24 (mod 26), Invertierbar: false
+Schlüssel #593 gefunden: {a11 = 23, a12 =  0, a21 = 21, a22 =  8}, Determinante:  184 =   2 (mod 26), Invertierbar: false
+Schlüssel #594 gefunden: {a11 = 23, a12 =  0, a21 = 21, a22 = 21}, Determinante:  483 =  15 (mod 26), Invertierbar:  true
+Schlüssel #595 gefunden: {a11 = 23, a12 =  0, a21 = 23, a22 = 11}, Determinante:  253 =  19 (mod 26), Invertierbar:  true
+Schlüssel #596 gefunden: {a11 = 23, a12 =  0, a21 = 23, a22 = 24}, Determinante:  552 =   6 (mod 26), Invertierbar: false
+Schlüssel #597 gefunden: {a11 = 23, a12 =  0, a21 = 25, a22 =  1}, Determinante:   23 =  23 (mod 26), Invertierbar:  true
+Schlüssel #598 gefunden: {a11 = 23, a12 =  0, a21 = 25, a22 = 14}, Determinante:  322 =  10 (mod 26), Invertierbar: false
+Schlüssel #599 gefunden: {a11 = 23, a12 = 13, a21 =  1, a22 =  4}, Determinante:   79 =   1 (mod 26), Invertierbar:  true
+Schlüssel #600 gefunden: {a11 = 23, a12 = 13, a21 =  1, a22 = 17}, Determinante:  378 =  14 (mod 26), Invertierbar: false
+Schlüssel #601 gefunden: {a11 = 23, a12 = 13, a21 =  3, a22 =  7}, Determinante:  122 =  18 (mod 26), Invertierbar: false
+Schlüssel #602 gefunden: {a11 = 23, a12 = 13, a21 =  3, a22 = 20}, Determinante:  421 =   5 (mod 26), Invertierbar:  true
+Schlüssel #603 gefunden: {a11 = 23, a12 = 13, a21 =  5, a22 = 10}, Determinante:  165 =   9 (mod 26), Invertierbar:  true
+Schlüssel #604 gefunden: {a11 = 23, a12 = 13, a21 =  5, a22 = 23}, Determinante:  464 =  22 (mod 26), Invertierbar: false
+Schlüssel #605 gefunden: {a11 = 23, a12 = 13, a21 =  7, a22 =  0}, Determinante:  -91 =  13 (mod 26), Invertierbar: false
+Schlüssel #606 gefunden: {a11 = 23, a12 = 13, a21 =  7, a22 = 13}, Determinante:  208 =   0 (mod 26), Invertierbar: false
+Schlüssel #607 gefunden: {a11 = 23, a12 = 13, a21 =  9, a22 =  3}, Determinante:  -48 =   4 (mod 26), Invertierbar: false
+Schlüssel #608 gefunden: {a11 = 23, a12 = 13, a21 =  9, a22 = 16}, Determinante:  251 =  17 (mod 26), Invertierbar:  true
+Schlüssel #609 gefunden: {a11 = 23, a12 = 13, a21 = 11, a22 =  6}, Determinante:   -5 =  21 (mod 26), Invertierbar:  true
+Schlüssel #610 gefunden: {a11 = 23, a12 = 13, a21 = 11, a22 = 19}, Determinante:  294 =   8 (mod 26), Invertierbar: false
+Schlüssel #611 gefunden: {a11 = 23, a12 = 13, a21 = 13, a22 =  9}, Determinante:   38 =  12 (mod 26), Invertierbar: false
+Schlüssel #612 gefunden: {a11 = 23, a12 = 13, a21 = 13, a22 = 22}, Determinante:  337 =  25 (mod 26), Invertierbar:  true
+Schlüssel #613 gefunden: {a11 = 23, a12 = 13, a21 = 15, a22 = 12}, Determinante:   81 =   3 (mod 26), Invertierbar:  true
+Schlüssel #614 gefunden: {a11 = 23, a12 = 13, a21 = 15, a22 = 25}, Determinante:  380 =  16 (mod 26), Invertierbar: false
+Schlüssel #615 gefunden: {a11 = 23, a12 = 13, a21 = 17, a22 =  2}, Determinante: -175 =   7 (mod 26), Invertierbar:  true
+Schlüssel #616 gefunden: {a11 = 23, a12 = 13, a21 = 17, a22 = 15}, Determinante:  124 =  20 (mod 26), Invertierbar: false
+Schlüssel #617 gefunden: {a11 = 23, a12 = 13, a21 = 19, a22 =  5}, Determinante: -132 =  24 (mod 26), Invertierbar: false
+Schlüssel #618 gefunden: {a11 = 23, a12 = 13, a21 = 19, a22 = 18}, Determinante:  167 =  11 (mod 26), Invertierbar:  true
+Schlüssel #619 gefunden: {a11 = 23, a12 = 13, a21 = 21, a22 =  8}, Determinante:  -89 =  15 (mod 26), Invertierbar:  true
+Schlüssel #620 gefunden: {a11 = 23, a12 = 13, a21 = 21, a22 = 21}, Determinante:  210 =   2 (mod 26), Invertierbar: false
+Schlüssel #621 gefunden: {a11 = 23, a12 = 13, a21 = 23, a22 = 11}, Determinante:  -46 =   6 (mod 26), Invertierbar: false
+Schlüssel #622 gefunden: {a11 = 23, a12 = 13, a21 = 23, a22 = 24}, Determinante:  253 =  19 (mod 26), Invertierbar:  true
+Schlüssel #623 gefunden: {a11 = 23, a12 = 13, a21 = 25, a22 =  1}, Determinante: -302 =  10 (mod 26), Invertierbar: false
+Schlüssel #624 gefunden: {a11 = 23, a12 = 13, a21 = 25, a22 = 14}, Determinante:   -3 =  23 (mod 26), Invertierbar:  true
+Schlüssel #625 gefunden: {a11 = 25, a12 =  3, a21 =  1, a22 =  4}, Determinante:   97 =  19 (mod 26), Invertierbar:  true
+Schlüssel #626 gefunden: {a11 = 25, a12 =  3, a21 =  1, a22 = 17}, Determinante:  422 =   6 (mod 26), Invertierbar: false
+Schlüssel #627 gefunden: {a11 = 25, a12 =  3, a21 =  3, a22 =  7}, Determinante:  166 =  10 (mod 26), Invertierbar: false
+Schlüssel #628 gefunden: {a11 = 25, a12 =  3, a21 =  3, a22 = 20}, Determinante:  491 =  23 (mod 26), Invertierbar:  true
+Schlüssel #629 gefunden: {a11 = 25, a12 =  3, a21 =  5, a22 = 10}, Determinante:  235 =   1 (mod 26), Invertierbar:  true
+Schlüssel #630 gefunden: {a11 = 25, a12 =  3, a21 =  5, a22 = 23}, Determinante:  560 =  14 (mod 26), Invertierbar: false
+Schlüssel #631 gefunden: {a11 = 25, a12 =  3, a21 =  7, a22 =  0}, Determinante:  -21 =   5 (mod 26), Invertierbar:  true
+Schlüssel #632 gefunden: {a11 = 25, a12 =  3, a21 =  7, a22 = 13}, Determinante:  304 =  18 (mod 26), Invertierbar: false
+Schlüssel #633 gefunden: {a11 = 25, a12 =  3, a21 =  9, a22 =  3}, Determinante:   48 =  22 (mod 26), Invertierbar: false
+Schlüssel #634 gefunden: {a11 = 25, a12 =  3, a21 =  9, a22 = 16}, Determinante:  373 =   9 (mod 26), Invertierbar:  true
+Schlüssel #635 gefunden: {a11 = 25, a12 =  3, a21 = 11, a22 =  6}, Determinante:  117 =  13 (mod 26), Invertierbar: false
+Schlüssel #636 gefunden: {a11 = 25, a12 =  3, a21 = 11, a22 = 19}, Determinante:  442 =   0 (mod 26), Invertierbar: false
+Schlüssel #637 gefunden: {a11 = 25, a12 =  3, a21 = 13, a22 =  9}, Determinante:  186 =   4 (mod 26), Invertierbar: false
+Schlüssel #638 gefunden: {a11 = 25, a12 =  3, a21 = 13, a22 = 22}, Determinante:  511 =  17 (mod 26), Invertierbar:  true
+Schlüssel #639 gefunden: {a11 = 25, a12 =  3, a21 = 15, a22 = 12}, Determinante:  255 =  21 (mod 26), Invertierbar:  true
+Schlüssel #640 gefunden: {a11 = 25, a12 =  3, a21 = 15, a22 = 25}, Determinante:  580 =   8 (mod 26), Invertierbar: false
+Schlüssel #641 gefunden: {a11 = 25, a12 =  3, a21 = 17, a22 =  2}, Determinante:   -1 =  25 (mod 26), Invertierbar:  true
+Schlüssel #642 gefunden: {a11 = 25, a12 =  3, a21 = 17, a22 = 15}, Determinante:  324 =  12 (mod 26), Invertierbar: false
+Schlüssel #643 gefunden: {a11 = 25, a12 =  3, a21 = 19, a22 =  5}, Determinante:   68 =  16 (mod 26), Invertierbar: false
+Schlüssel #644 gefunden: {a11 = 25, a12 =  3, a21 = 19, a22 = 18}, Determinante:  393 =   3 (mod 26), Invertierbar:  true
+Schlüssel #645 gefunden: {a11 = 25, a12 =  3, a21 = 21, a22 =  8}, Determinante:  137 =   7 (mod 26), Invertierbar:  true
+Schlüssel #646 gefunden: {a11 = 25, a12 =  3, a21 = 21, a22 = 21}, Determinante:  462 =  20 (mod 26), Invertierbar: false
+Schlüssel #647 gefunden: {a11 = 25, a12 =  3, a21 = 23, a22 = 11}, Determinante:  206 =  24 (mod 26), Invertierbar: false
+Schlüssel #648 gefunden: {a11 = 25, a12 =  3, a21 = 23, a22 = 24}, Determinante:  531 =  11 (mod 26), Invertierbar:  true
+Schlüssel #649 gefunden: {a11 = 25, a12 =  3, a21 = 25, a22 =  1}, Determinante:  -50 =   2 (mod 26), Invertierbar: false
+Schlüssel #650 gefunden: {a11 = 25, a12 =  3, a21 = 25, a22 = 14}, Determinante:  275 =  15 (mod 26), Invertierbar:  true
+
+Fortschritt: i: 25, j: 15, k: 17, l: 18, keyCounter: 450.000
+Schlüssel #651 gefunden: {a11 = 25, a12 = 16, a21 =  1, a22 =  4}, Determinante:   84 =   6 (mod 26), Invertierbar: false
+Schlüssel #652 gefunden: {a11 = 25, a12 = 16, a21 =  1, a22 = 17}, Determinante:  409 =  19 (mod 26), Invertierbar:  true
+Schlüssel #653 gefunden: {a11 = 25, a12 = 16, a21 =  3, a22 =  7}, Determinante:  127 =  23 (mod 26), Invertierbar:  true
+Schlüssel #654 gefunden: {a11 = 25, a12 = 16, a21 =  3, a22 = 20}, Determinante:  452 =  10 (mod 26), Invertierbar: false
+Schlüssel #655 gefunden: {a11 = 25, a12 = 16, a21 =  5, a22 = 10}, Determinante:  170 =  14 (mod 26), Invertierbar: false
+Schlüssel #656 gefunden: {a11 = 25, a12 = 16, a21 =  5, a22 = 23}, Determinante:  495 =   1 (mod 26), Invertierbar:  true
+Schlüssel #657 gefunden: {a11 = 25, a12 = 16, a21 =  7, a22 =  0}, Determinante: -112 =  18 (mod 26), Invertierbar: false
+Schlüssel #658 gefunden: {a11 = 25, a12 = 16, a21 =  7, a22 = 13}, Determinante:  213 =   5 (mod 26), Invertierbar:  true
+Schlüssel #659 gefunden: {a11 = 25, a12 = 16, a21 =  9, a22 =  3}, Determinante:  -69 =   9 (mod 26), Invertierbar:  true
+Schlüssel #660 gefunden: {a11 = 25, a12 = 16, a21 =  9, a22 = 16}, Determinante:  256 =  22 (mod 26), Invertierbar: false
+Schlüssel #661 gefunden: {a11 = 25, a12 = 16, a21 = 11, a22 =  6}, Determinante:  -26 =   0 (mod 26), Invertierbar: false
+Schlüssel #662 gefunden: {a11 = 25, a12 = 16, a21 = 11, a22 = 19}, Determinante:  299 =  13 (mod 26), Invertierbar: false
+Schlüssel #663 gefunden: {a11 = 25, a12 = 16, a21 = 13, a22 =  9}, Determinante:   17 =  17 (mod 26), Invertierbar:  true
+Schlüssel #664 gefunden: {a11 = 25, a12 = 16, a21 = 13, a22 = 22}, Determinante:  342 =   4 (mod 26), Invertierbar: false
+Schlüssel #665 gefunden: {a11 = 25, a12 = 16, a21 = 15, a22 = 12}, Determinante:   60 =   8 (mod 26), Invertierbar: false
+Schlüssel #666 gefunden: {a11 = 25, a12 = 16, a21 = 15, a22 = 25}, Determinante:  385 =  21 (mod 26), Invertierbar:  true
+Schlüssel #667 gefunden: {a11 = 25, a12 = 16, a21 = 17, a22 =  2}, Determinante: -222 =  12 (mod 26), Invertierbar: false
+Schlüssel #668 gefunden: {a11 = 25, a12 = 16, a21 = 17, a22 = 15}, Determinante:  103 =  25 (mod 26), Invertierbar:  true
+Schlüssel #669 gefunden: {a11 = 25, a12 = 16, a21 = 19, a22 =  5}, Determinante: -179 =   3 (mod 26), Invertierbar:  true
+Schlüssel #670 gefunden: {a11 = 25, a12 = 16, a21 = 19, a22 = 18}, Determinante:  146 =  16 (mod 26), Invertierbar: false
+Schlüssel #671 gefunden: {a11 = 25, a12 = 16, a21 = 21, a22 =  8}, Determinante: -136 =  20 (mod 26), Invertierbar: false
+Schlüssel #672 gefunden: {a11 = 25, a12 = 16, a21 = 21, a22 = 21}, Determinante:  189 =   7 (mod 26), Invertierbar:  true
+Schlüssel #673 gefunden: {a11 = 25, a12 = 16, a21 = 23, a22 = 11}, Determinante:  -93 =  11 (mod 26), Invertierbar:  true
+Schlüssel #674 gefunden: {a11 = 25, a12 = 16, a21 = 23, a22 = 24}, Determinante:  232 =  24 (mod 26), Invertierbar: false
+Schlüssel #675 gefunden: {a11 = 25, a12 = 16, a21 = 25, a22 =  1}, Determinante: -375 =  15 (mod 26), Invertierbar:  true
+Schlüssel #676 gefunden: {a11 = 25, a12 = 16, a21 = 25, a22 = 14}, Determinante:  -50 =   2 (mod 26), Invertierbar: false
+
+#### Bericht #####
+Anzahl der versuchten Schlüssel: 	456.976
+Anzahl der gefunden Schlüssel: 	   676 	0,147929 Prozenzt
+Anzahl der invertierbaren Schlüssel: 	   312 	0,068275 Prozent
+The Stop time is : 02.11.2017 - 00:09:58 and  461ms
+Time processed   : 00:00:00 and  232 ms
+Miliseconds needed: 233
+BUILD SUCCESSFUL (total time: 0 seconds)
