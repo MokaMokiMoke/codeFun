@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://services.persistence.event_evaluator.oth.biersaecke.de/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="KalenderServiceService" targetNamespace="http://services.persistence.event_evaluator.oth.biersaecke.de/">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.persistence.event_evaluator.oth.biersaecke.de/" elementFormDefault="unqualified" targetNamespace="http://services.persistence.event_evaluator.oth.biersaecke.de/" version="1.0">
+
+            <xs:element name="holenOeffentlicheEintraegeFuerTag" type="tns:holenOeffentlicheEintraegeFuerTag"/>
+
+            <xs:element name="holenOeffentlicheEintraegeFuerTagResponse" type="tns:holenOeffentlicheEintraegeFuerTagResponse"/>
+
+            <xs:complexType name="holenOeffentlicheEintraegeFuerTag">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="arg0" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+
+            <xs:complexType name="holenOeffentlicheEintraegeFuerTagResponse">
+                <xs:sequence>
+                    <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:eintrag"/>
+                </xs:sequence>
+            </xs:complexType>
+
+            <xs:complexType name="eintrag">
+                <xs:complexContent>
+                    <xs:extension base="tns:abstractEntity">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="bewertung" type="tns:bewertung"/>
+                            <xs:element minOccurs="0" name="details" type="xs:string"/>
+                            <xs:element minOccurs="0" name="ende" type="xs:dateTime"/>
+                            <xs:element minOccurs="0" name="kalender" type="tns:kalender"/>
+                            <xs:element minOccurs="0" name="oeffentlich" type="xs:boolean"/>
+                            <xs:element minOccurs="0" name="ort" type="xs:string"/>
+                            <xs:element minOccurs="0" name="start" type="xs:dateTime"/>
+                            <xs:element minOccurs="0" name="titel" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+
+            <xs:complexType abstract="true" name="abstractEntity">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="creationDate" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="id" type="xs:long"/>
+                </xs:sequence>
+            </xs:complexType>
+
+            <xs:complexType name="bewertung">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="datum" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="notiz" type="xs:string"/>
+                    <xs:element minOccurs="0" name="wert" type="xs:double"/>
+                </xs:sequence>
+            </xs:complexType>
+
+            <xs:complexType name="kalender">
+                <xs:complexContent>
+                    <xs:extension base="tns:abstractEntity">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="benutzer" type="tns:benutzer"/>
+                            <xs:element minOccurs="0" name="beschreibung" type="xs:string"/>
+                            <xs:element minOccurs="0" name="bezeichnung" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+
+            <xs:complexType name="benutzer">
+                <xs:complexContent>
+                    <xs:extension base="tns:abstractEntity">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="name" type="xs:string"/>
+                            <xs:element minOccurs="0" name="passwort" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+
+            <xs:complexType name="schlagwort">
+                <xs:complexContent>
+                    <xs:extension base="tns:abstractEntity">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="titel" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="holenOeffentlicheEintraegeFuerTagResponse">
+        <wsdl:part element="tns:holenOeffentlicheEintraegeFuerTagResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="holenOeffentlicheEintraegeFuerTag">
+        <wsdl:part element="tns:holenOeffentlicheEintraegeFuerTag" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="KalenderService">
+        <wsdl:operation name="holenOeffentlicheEintraegeFuerTag">
+            <wsdl:input message="tns:holenOeffentlicheEintraegeFuerTag" name="holenOeffentlicheEintraegeFuerTag">
+            </wsdl:input>
+            <wsdl:output message="tns:holenOeffentlicheEintraegeFuerTagResponse" name="holenOeffentlicheEintraegeFuerTagResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="KalenderServiceServiceSoapBinding" type="tns:KalenderService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="holenOeffentlicheEintraegeFuerTag">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="holenOeffentlicheEintraegeFuerTag">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="holenOeffentlicheEintraegeFuerTagResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="KalenderServiceService">
+        <wsdl:port binding="tns:KalenderServiceServiceSoapBinding" name="KalenderServicePort">
+            <soap:address location="http://im-lamport:8080/event_evaluator/KalenderService"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

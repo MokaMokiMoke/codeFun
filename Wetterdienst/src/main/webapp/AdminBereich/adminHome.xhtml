@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:body>
+        <ui:composition template="/WEB-INF/templates/wetterdienstTemplate.xhtml">
+            <ui:define name="content">
+
+                <h:form>
+                    <h:panelGrid columns="3">
+                        <h:outputLabel style="font-weight:bold" value="Nutzer verwalten:"/>
+
+                        <h:selectOneMenu value="#{adminModel.nutzerFuerBearbeiten}">
+                            <f:converter binding="#{adminModel.registrierterNutzerConverter}"/>
+                            <f:selectItems value="#{nutzerModel.holeAlleNutzer()}"/>                                
+                        </h:selectOneMenu>
+                    </h:panelGrid>
+
+                    <h:commandButton value="Nutzer entsperren" action="#{adminModel.nutzerEntsperren()}"/>
+                    <h:commandButton value="Nutzer sperren" action="#{adminModel.nutzerSperren()}"/>                        
+                    <h:commandButton value="Nutzer löschen" action="#{adminModel.nutzerLoeschen()}"/>
+
+                </h:form>
+
+                <br/>
+                <hr style="margin: 0; width: 500px; height: 3px; background: black; border: none;" />                
+                <br/>
+
+                <b>Neuen Ort hinzufügen:</b>
+                <br/><br/>
+
+                <h:form>
+
+                    <h:panelGrid columns="2">
+                        Name
+                        <h:inputText id="neuerOrtName" size="20" value="#{adminModel.neuerOrtName}" required="true" 
+                                     requiredMessage="Bitte geben Sie einen Namen für den neuen Ort ein"/>
+
+                        Land
+                        <h:selectOneMenu value="#{adminModel.neuerOrtLand}" >
+                            <f:selectItems value="#{adminModel.laender}" />
+                        </h:selectOneMenu>
+
+                        Bundesland
+                        <h:selectOneMenu value="#{adminModel.neuerOrtBundesland}" >
+                            <f:selectItems value="#{adminModel.bundesLaender}" />
+                        </h:selectOneMenu>
+
+                    </h:panelGrid>
+
+
+                    <b>INFO: </b> Bei Orten außerhalb von Deutschland wird das Bundesland automatisch gesetzt.
+                    <br/>      
+                    <br/>
+
+                    <b>Von wann bis wann soll der neue Ort Vorhersagen bekommen?</b>
+                    <h:panelGrid columns="2">
+                        <p:outputLabel value="Von:"/>
+                        <p:calendar value="#{adminModel.datumStart}" required="true" 
+                                    requiredMessage="Bitte geben Sie ein Start-Datum an" pattern="dd.MM.yyyy" mask="true" locale="de"/>
+                        <p:outputLabel value="Bis:"/>
+                        <p:calendar value="#{adminModel.datumEnde}" required="true" 
+                                    requiredMessage="Bitte geben Sie ein End-Datum an" pattern="dd.MM.yyyy" mask="true" locale="de"/>
+                    </h:panelGrid>
+                    <br></br>
+
+                    <b>INFO:</b> Das Anlegen von vielen Wetterdaten kann lange Wartezeiten oder Timeouts verursachen!
+                    <br/>Halten Sie das gewünschte Zeitfenster bitte unter 2 Jahren :)
+                    <br/><br/>
+                    <h:commandButton value="Neuen Ort hinzufügen (inkl. Wetterdaten)" action="#{adminModel.ortHinzufuegen()}"/>
+
+                    <h:messages></h:messages>
+
+                </h:form>
+
+                <br/>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <h:head>
+        <title>Wetterdienst</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+
+    <h:body>
+        <ui:composition template="/WEB-INF/templates/wetterdienstTemplate.xhtml">
+            <ui:define name="content">
+
+                <h2>Willkommen beim Wetterdienst ^-^</h2>
+                <br/>
+                <h:outputText value="Rufen Sie gleich das Wetter ab oder loggen Sie sich ein" rendered="#{!nutzerModel.hatNutzer()}"/>
+                <br/><br/><br/>
+
+                <h2>Info-Blatt für den Tester</h2>
+                <ul>
+                    <li>Für Sie ist noch <b>kein Benutzer erstellt</b>. Nutzen Sie die Maske links um einen Nutzer zu erstellen.</li>
+                    <li>Es gibt <b>"normale" Nutzer und Admin Nutzer</b>. Um "aufsteigen" zu können, benötigen Sie einen <b>Token</b> wie z.B.: ABC-DEF-GHI</li>
+                    <li>Wetterdaten sind in der Regel vom <b>01.01.2017 bis heute+14 Tage</b> vorhanden</li>
+                    <li>Für die Orte <b>Regensburg</b> und <b>Landshut</b> gibt es im Zeitraum von <b>01.01.2018 - 30.04.2018</b> einige Veranstaltungen als Testdaten (können natürlich auch selbst generiert werden)</li>
+                    <li>Diese Informationen sind stets im Menüpunkt <b>Startseite</b> verfügbar</li>
+                </ul>
+
+                <br/><br/><br/><br/>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

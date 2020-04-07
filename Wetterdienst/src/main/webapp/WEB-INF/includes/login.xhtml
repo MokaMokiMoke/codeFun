@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <h:body>
+        <ui:component>
+            <h:form rendered="#{!nutzerModel.hatNutzer()}">
+                <h:panelGrid columns="1">
+                    <h:outputLabel value="Nutzername"/>
+                    <h:inputText id="nutzername" size="15" required="true" requiredMessage="Bitte geben Sie ihren Nutzernamen an" value="#{nutzerModel.nutzername}"/>
+                    <h:message for="nutzername" style="color:red"/>
+
+                    <h:outputLabel value="Passwort:"/>
+                    <h:inputSecret id="passwort" size="15" required="true" requiredMessage="Bitte geben Sie ihr Passwort an" value="#{nutzerModel.passwort}"/>
+                    <h:message for="passwort" style="color:red"/>
+
+                    <h:commandButton value="Anmelden" action="#{nutzerModel.pruefeAnmeldung()}"/>
+                    <h:commandButton value="Registrieren" action="Registrieren/RegistrierenHeimatortAngeben.xhtml"/>
+                </h:panelGrid>
+            </h:form>
+
+            <h:outputText value="Willkommen, #{nutzerModel.regNutzer.nutzername}" rendered="#{nutzerModel.hatNutzer()}"/>
+
+            <br/><br/>
+
+            <h:panelGrid columns="2" rendered="#{nutzerModel.heimatwetter != null and nutzerModel.hatNutzer()}">
+
+                <h:outputText value="Heimatwetter" style="font-weight:bold"/>
+                <br/>
+
+                <h:outputLabel value="Aktuell:" />
+                <h:outputText value="#{nutzerModel.heimatwetter.avgTemperatur}°C"/>
+
+                <h:outputLabel value="Max:" rendered="#{nutzerModel.hatNutzer()}"/>
+                <h:outputText value="#{nutzerModel.heimatwetter.maxTemperatur}°C"/>
+
+                <h:outputLabel value="Min:" rendered="#{nutzerModel.hatNutzer()}"/>
+                <h:outputText value="#{nutzerModel.heimatwetter.minTemperatur}°C"/>
+
+                <h:outputLabel value="Regen:"/>
+                <h:outputText value="#{nutzerModel.heimatwetter.regenfall} l/m²"/>
+
+                <h:graphicImage library="images" name="#{nutzerModel.heimatwetter.wolkenTyp.bild}.png" width="75px"/>
+
+                <br/>
+            </h:panelGrid>
+            <br/>
+
+            <h:form rendered="#{nutzerModel.hatNutzer()}">
+                <h:panelGrid columns="1">
+                    <h:commandButton value="abmelden" action="#{nutzerModel.abmelden()}"/>                       
+                </h:panelGrid>
+            </h:form>
+        </ui:component>
+    </h:body>
+</html>

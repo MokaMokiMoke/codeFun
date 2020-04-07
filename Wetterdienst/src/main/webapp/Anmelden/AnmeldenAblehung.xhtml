@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:body>
+        <ui:composition template="/WEB-INF/templates/wetterdienstTemplate.xhtml">
+            <ui:define name="content">
+
+                <h2>Fehler beim Login</h2> <br/>
+                Mögliche Ursachen:
+                <ul>
+                    <li>Nutzername existiert nicht</li>
+                    <li>Nutzername und Passwort Kombination falsch</li>
+                    <li>Nutzer ist gesperrt</li>
+                </ul>
+                <br/>
+                <h:form>
+                    <h:panelGrid columns="1">
+                        <h:commandButton value="zurück" action="/index.xhtml"/>
+                    </h:panelGrid>
+                    <br/><br/><br/><br/><br/>
+                </h:form>
+                <br/><br/>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

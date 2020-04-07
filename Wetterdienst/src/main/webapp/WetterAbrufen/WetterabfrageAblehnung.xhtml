@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:body>
+        <ui:composition template="/WEB-INF/templates/wetterdienstTemplate.xhtml">
+            <ui:define name="content">
+
+                <h2>Die gewünschten Wetterdaten sind nicht vorhanden</h2> <br/>
+                Mögliche Ursachen:
+                <ul>
+                    <li>Das Abfragedatum liegt mehr 12 Tage in der Zukunft</li>
+                    <li>Die Datenbank hat keine Vorhersage für den gewünschten Tag</li>
+                </ul>
+                <br/>
+
+                <h:form>
+                    <h:panelGrid columns="1">
+                        <h:commandButton value="zurück" action="/index.xhtml"/>
+                    </h:panelGrid>
+                </h:form>
+
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <h:body>
+
+        <ui:composition template="/WEB-INF/templates/wetterdienstTemplate.xhtml">
+            <ui:define name="content">
+
+                <h2>Nutzerkonto bearbeiten</h2>
+                Zum Ändern des Passwortes oder zum Löschen des Nutzerkontos <br/>
+                wird das aktuelle Passwort benötigt
+                <br/><br/>
+
+                <h:form>
+
+                    <h:panelGrid columns="2">
+
+                        <h:outputLabel value="Nutzername:"/>
+                        <h:inputText id="nutzername" size="15" value="#{nutzerModel.regNutzer.nutzername}" disabled="true" 
+                                     style="background-color:light-grey; color:light-blue;"/>
+
+                        <h:outputLabel value="Aktuelles Passwort:"/> 
+                        <h:inputSecret id="aktuellesPasswort" size="15" value="#{nutzerModel.challengePasswort}" required="true" 
+                                       requiredMessage="Bitte geben Sie ihr aktuelles Passwort an"/>
+
+                        <h:outputLabel value="Neues Passwort"/>
+                        <h:inputSecret id="neuesPasswort" size="15" value="#{nutzerModel.neuesPasswort}"/>
+
+                        <h:commandButton value="Passwort ändern" action="#{nutzerModel.aenderePasswort()}"/>
+                        <h:commandButton value="Nutzerkonto löschen" action="#{nutzerModel.loescheKonto()}"/>
+
+                    </h:panelGrid>
+                    <h:message for="aktuellesPasswort" style="color:red"/>
+
+                    <br/><br/>
+
+                </h:form>
+
+                <h:form>
+                    <h:panelGrid columns="2" rendered="#{!nutzerModel.regNutzer.istAdmin}">
+                        <h:outputLabel value="Admin Token"/>
+                        <h:inputText id="adminToken" size="15" value="#{nutzerModel.neuerAdminToken}" required="true" 
+                                     requiredMessage="Bitte geben Sie Ihren Token ein"/>
+
+                        <h:commandButton value="Upgrade zum Admin" action="#{nutzerModel.upgradeZumAdmin()}"/>
+
+                        <h:message for="adminToken" style="color:red"/>
+
+                    </h:panelGrid>
+
+
+                    <ui:fragment rendered="#{nutzerModel.regNutzer.istAdmin}">
+                        <br/><br/>
+                        <b>INFO:</b>
+                        Sie Sind bereits Admin :)                        
+                        <br/><br/>
+                    </ui:fragment>
+
+                    <br/>
+                </h:form>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
